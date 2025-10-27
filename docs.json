@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "WonkaChat Wiki",
+  "name": "Tooli Wiki",
   "colors": {
     "primary": "#5a4bff",
     "light": "#7e72ff",
@@ -15,14 +15,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "WonkaChat",
+        "tab": "Tooli",
         "groups": [
           
           {
-            "group": "Welcome to Wonka Chat",
+            "group": "Welcome to Tooli",
             "pages": [
               "welcome/introduction",
-              "welcome/why-wonka-chat",
+              "welcome/why-tooli",
               "welcome/quick-start"
             ]
           },
@@ -37,18 +37,9 @@
             ]
           },
           {
-            "group": "Tools & Connection",
-            "pages": [
-              "tools-connection/introduction",
-              "tools-connection/setting-up-your-first-connection",
-              "tools-connection/troubleshooting-connections",
-              "tools-connection/examples-of-tool-usage"
-            ]
-          },
-          
-          {
             "group": "Improved Usage",
             "pages": [
+              "improved-usage/index",
               "improved-usage/asking-great-questions",
               "improved-usage/conversation-management",
               "improved-usage/prompt-library"
@@ -174,7 +165,7 @@
   "404": {
     "redirect": false,
     "title": "Your page can't be found",
-    "description": "Please, go ask **WonkaChat** to help you find what you're looking for, I am sure he can help you !"
+    "description": "Please, go ask **Tooli** to help you find what you're looking for, I am sure he can help you !"
   }
 }
 }

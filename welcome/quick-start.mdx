@@ -1,242 +1,207 @@
 ---
 title: "Quick Start Guide"
-description: "Get started with WonkaChat in 5 minutes, from first login to your first AI-powered workflow."
+description: "Get up and running with Tooli in just 5 minutes. This guide will walk you through everything you need to start using Belgium's construction-specific AI assistant."
 ---
 
-Get up and running with WonkaChat quickly and start experiencing AI-powered automation across your business tools.
 
+## Before You Begin
 
-## Your 5-Minute Success Path
-
-<Steps>
-<Step title="First Login and Account Access">
-
-Access WonkaChat through one of two methods:
-
-<Tabs>
-<Tab title="Team SSO Login">
-If your organization has already set up WonkaChat, use your existing work credentials:
-
-**Sign in with:**
-- **Google Workspace** (your company Google account)
-- **Microsoft 365** (your company Microsoft account)
-- **Other SSO providers** your organization has configured
-
-<Info>
-SSO uses OpenID Connect for secure, seamless authentication with your existing credentials.
-</Info>
-
-<Check>
-No new password to remember, you can just use your existing work account credentials.
-</Check>
-</Tab>
-
-<Tab title="Invitation Setup">
-If you're the first user from your organization:
-
-1. Check your email for a WonkaChat invitation
-2. Click the invitation link
-3. Create your account credentials
-4. Complete your profile setup
-5. Begin configuring your organization's WonkaChat instance
-
-<Tip>
-After initial setup, you can enable SSO for your team so everyone can use their existing work credentials.
-</Tip>
-</Tab>
-</Tabs>
-
-**What you'll see after login:**
-- Clean chat interface in the center
-- Connected tools and agents in the sidebar
-- Model selection options in the settings
-- Your prompt library and saved conversations
-
-</Step>
-
-<Step title="Quick Navigation Tour">
-
-<Info>
-**Video Tutorial Coming Soon**
-
-We're preparing a comprehensive video walkthrough of the WonkaChat interface. This space will contain an interactive tutorial showing you how to navigate the platform, access key features, and customize your workspace.
-</Info>
-
-</Step>
-
-<Step title="Test Your First Message">
-
-Let's make sure everything works with a simple test:
-
-### Send a Basic Message
-
-Type something simple in the chat:
-
-```
-Can you say "Hello World" please?
-```
-
-WonkaChat will respond, confirming the platform is working correctly.
-
-<Check>
-If you receive a response, you're all set! The AI is connected and ready to help.
-</Check>
-
-
-</Step>
-
-<Step title="Connect Your First Tool (Outlook)">
-
-Now let's connect WonkaChat to your email account so it can access your emails and calendar.
-
-<Warning>
-This example uses **Outlook**, but the process is identical for **Gmail**, or any other email system. Simply click the corresponding the right connection button for your email provider and follow the same steps.
-</Warning>
-
-### Step-by-Step Connection
-
-<Steps>
-<Step title="Open the MCP Settings">
-On the right side of your WonkaChat interface, locate and click the **Outlook MCP** button in the tools panel.
-
-<Frame caption="Outlook MCP button location">
-<img src="/images/test.gif" alt="Outlook MCP button in the right panel" />
-</Frame>
-
-<Info>
-Learn about MCP connections in [Tools & Connection](/tools-connection/introduction).
-</Info>
-
-</Step>
-
-
-<Step title="Add Your Credentials">
-A connection window will appear asking for your credentials. Enter the required information:
-- Your Outlook email address
-- Authentication credentials (this will use your organization's authentication method)
-
-<Frame caption="Outlook MCP credentials screen">
-<img src="/images/outlook-mcp-credentials.png" alt="Outlook MCP credential input screen" />
-</Frame>
-
-<Info>
-WonkaChat uses secure authentication and never stores your password. All credentials are encrypted.
-</Info>
-</Step>
-
-<Step title="Enable Connection for Your Model">
-After connecting, you need to authorize the External connection (MCP) for the AI model you're using.
-
-<Frame caption="Enable MCP for your model">
-<img src="/images/enable-mcp-model.png" alt="Enable the connection for the AI model" />
-</Frame>
-
-Click **"MCP Servers"** and select connection which (MCP) you want the AI model to use.
-
-<Check>
-Once the Outlook connection (MCP) is enabled, the AI can read your emails, access your calendar, send messages on your behalf, and handle any Outlook-related tasks through natural conversation.
-</Check>
-</Step>
-</Steps>
-
-</Step>
-
-<Step title="Your First Connected Conversation">
-
-Now that Outlook is connected, let's use it in a conversation:
-
-### Send a message to the connected AI model
-
-Type something like:
-
-```
-What's on my outlook calendar today?
-```
-<Warning>
-The AI will only access Outlook data when you explicitly ask it to. It respects your existing permissions and won't perform actions without your knowledge.
-</Warning>
-
-
-WonkaChat will:
-- Access your Outlook calendar through the external connection
-- Retrieve your schedule
-- Present it in an organized format
-
-<Check>
-You've successfully connected a tool and used it through natural conversation!
-</Check>
-
-</Step>
-
-<Step title="Understanding Model Selection">
-
-Choose the right model for your task:
-
-<CardGroup cols={2}>
-<Card title="Thinking Models" icon="brain">
-**Use for complex tasks:**
-- Strategic analysis
-- Multi-step problem solving
-- Data analysis and insights
-- Complex workflow planning
-
-**Example:** "Analyze our Q3 sales data and recommend improvements"
+### What You Need
+<CardGroup cols={3}>
+<Card title="Membership" icon="users">
+Active membership with Buildwise, Embuild, Bouwunie, or Constructiv
 </Card>
 
-<Card title="Fast/Non-Thinking Models" icon="bolt">
-**Use for quick tasks:**
-- Simple questions
-- Fast information retrieval
-- Basic formatting
-- Quick summaries
+<Card title="Professional Email" icon="inbox">
+Your work email address for verification
+</Card>
 
-**Example:** "What's my next meeting?"
+<Card title="Device" icon="computer">
+Phone, tablet, or computer with internet connection
 </Card>
 </CardGroup>
 
-<Tip>
-When in doubt, start with thinking models for important tasks. You can always switch to fast/non-thinking models for speed and cost once you understand the query complexity.
-</Tip>
+---
 
+## Getting Started
+
+<Steps>
+<Step title="Visit Tooli">
+Access Tooli through multiple entry points:
+
+- **Direct access:** Go to [tooli.be](https://tooli.be)
+- **From Buildwise:** Navigate from buildwise.be to the AI tools section
+- **Organization portal:** Use your organization's specific Tooli link
+- **Landing page:** Through partner organization websites
+
+<Tip>
+Bookmark the site in your favorites for quick access from the construction site or office.
+</Tip>
 </Step>
 
-<Step>
-## Quick Tips for Success
+<Step title="Registration & Verification">
+**Fill in your details:**
+- Full name and display name (how others see you)
+- Professional email address
+- Password (8+ characters with letters and numbers)
+
+**Automatic verification:**
+- Your email is checked against partner organization whitelists
+- **If whitelisted:** Instant access approved
+- **If not whitelisted:** Submit access request for manual review
+
+<Note>
+Premium members of Buildwise, Embuild, Bouwunie, and Constructiv are typically auto-approved.
+</Note>
+</Step>
+
+<Step title="Organization Setup">
+**Based on your email, you'll either:**
+
+- **Join existing organization** - Select from list if your company is already registered
+- **Create new organization** - Set up name, slug (your-slug.tooli.be) for new teams
+
+<Tip>
+Large companies often have existing organizations you can join immediately.
+</Tip>
+</Step>
+
+<Step title="Accept Policies">
+On your first login, you'll review and accept:
+- **Terms of Service** - Platform usage rules
+- **Privacy Policy** - How your data is handled  
+- **Data Retention Policy** - 12-month automatic deletion
+- **EU Processing Notice** - GDPR compliance information
+
+<Note>
+Quick one-time setup to ensure you understand data handling and usage rules.
+</Note>
+</Step>
+
+<Step title="Welcome Tour">
+The guided tour shows you:
+- **Interface overview** - Chat area, agent panel, settings
+- **Sample prompts** - Try these to get started
+- **Input methods** - Type or speak your questions
+- **Mode selection** - Fast vs Thinking explained
+- **File upload** - How to add documents
+
+<Tip>
+You can skip the tour and revisit it later from settings if needed.
+</Tip>
+</Step>
+
+<Step title="Your First Conversation">
+**Choose an agent and start chatting:**
 
 <CardGroup cols={2}>
-<Card title="Be Specific" icon="crosshairs">
-The more context you provide, the better WonkaChat can help. Include relevant details, timeframes, and desired outcomes.
+<Card title="General Assistant" icon="message-square">
+**Try:** "What's the minimum concrete strength for foundations?"
 </Card>
 
-<Card title="Start Simple" icon="seedling">
-Begin with straightforward queries and gradually work up to complex multi-step workflows as you learn the platform.
+<Card title="Quote Builder" icon="calculator">
+**Try:** "Create a quote for bathroom renovation, 2x3m"
 </Card>
 </CardGroup>
 
+- Pick any agent in the right panel
+- Type your question naturally
+- Get instant, construction-specific answers
+- Ask follow-up questions as needed
+
+<Note>
+Start with Fast Mode (default) for quick answers. Try Thinking Mode for complex analysis once you're comfortable.
+</Note>
 </Step>
 </Steps>
 
 ---
 
-## Next Steps: Go Deeper
+## Ready to Learn More?
 
-Now that you're familiar with the basics, explore more advanced capabilities:
+<Note>
+🎉 **Congratulations!** You're now ready to use Tooli for your construction work.
+
+**Want to become an expert user?** Explore these advanced features:
+</Note>
 
 <CardGroup cols={2}>
-<Card title="Create AI Agents" icon="robot" href="/ai-agents/creating-your-first-agent">
-Build specialized agents focused on specific tasks for more accurate, reliable results with reduced hallucinations.
+<Card title="Fast vs Thinking Modes" icon="brain" href="/usage-guide#modes">
+Learn when to use each response mode for best results.
 </Card>
 
-<Card title="Understand Tool Connection" icon="plug" href="/tools-connection/setting-up-your-first-connection">
-Learn how external connections (MCP) work and scale from connecting a single tool to integrating your entire business ecosystem.
+<Card title="Working with Documents" icon="file-upload" href="/usage-guide#documents">
+Master document upload, analysis, and advanced questioning techniques.
 </Card>
 
-<Card title="Improve Your AI Usage" icon="wand-magic-sparkles" href="/improved-usage/index">
-Discover techniques for asking better questions, managing conversations effectively, and getting more value from every AI interaction.
+<Card title="Using the Web Browser" icon="globe" href="/usage-guide#web-search">
+Get the latest regulations and industry updates through AI-powered search.
 </Card>
 
-<Card title="Security & Governance" icon="shield-check" href="/security-governance/index">
-Learn how to use AI securely, maintain data privacy, and implement governance policies that protect your organization while maximizing AI capabilities.
+<Card title="Voice Input Features" icon="microphone" href="/usage-guide#voice">
+Use speech-to-text for hands-free operation on construction sites.
 </Card>
 </CardGroup>
 
+## Common First Questions
+
+<AccordionGroup>
+<Accordion title="Is my data secure?" icon="shield">
+Yes - 100% EU hosting, GDPR compliant, encrypted storage, no data used for AI training.
+</Accordion>
+
+<Accordion title="Can I delete conversations?" icon="trash">
+Yes - Delete individual chats anytime, or they auto-delete after 12 months of inactivity.
+</Accordion>
+
+<Accordion title="What if the answer is wrong?" icon="alert">
+Always verify critical information. Tooli provides sources and disclaimers. For legal advice, consult your organization or Buildwise.be.
+</Accordion>
+
+<Accordion title="Can I share conversations?" icon="share">
+Yes - Create secure, private share links that aren't indexed by search engines.
+</Accordion>
+
+<Accordion title="How much does it cost?" icon="dollar-sign">
+Access is included with your partner organization membership. Usage limits may apply.
+</Accordion>
+</AccordionGroup>
+
+---
+
+## Need Help?
+
+### In-App Support
+<CardGroup cols={3}>
+<Card title="Help Portal" icon="book">
+Comprehensive guides, FAQs, and tutorials
+</Card>
+
+<Card title="Feedback Button" icon="message-circle">
+Report issues or suggest improvements
+</Card>
+
+<Card title="Quick Tips" icon="lightbulb">
+Helpful reminders that appear during idle time
+</Card>
+</CardGroup>
+
+### Contact Support
+If you can't find answers in the Help Portal:
+- **Support form** - Pre-filled with your context
+- **Email support** - Direct contact with support team  
+- **Partner support** - Contact your member organization
+
+---
+
+**Welcome to smarter construction work with AI!**
+
+<CardGroup cols={2}>
+<Card title="Try Your First Chat" icon="message-square" href="/chat">
+Start chatting with your construction AI assistants
+</Card>
+
+<Card title="Complete Usage Guide" icon="book-open" href="/usage-guide">
+Master all of Tooli's features and capabilities
+</Card>
+</CardGroup>
