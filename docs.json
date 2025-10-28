@@ -3,15 +3,12 @@
   "theme": "mint",
   "name": "Tooli Wiki",
   "colors": {
-    "primary": "#5a4bff",
-    "light": "#7e72ff",
-    "dark": "#362d9a"
+    "primary": "#E55A2B",
+    "light": "#FF8C69",
+    "dark": "#B8441F"
   },
   "favicon": "/favicon.png",
-  "banner": {
-    "content": "🚧 Version 1.0 incoming! We're currently working on it...",
-    "dismissible": false
-  },
+  "css": "/styles.css",
   "navigation": {
     "tabs": [
       {
@@ -27,13 +24,10 @@
             ]
           },
           {
-            "group": "AI Agents",
+            "group": "Discover your AI Assistants",
             "pages": [
               "ai-agents/introduction",
-              "ai-agents/finding-and-accessing-agents",
-              "ai-agents/using-existing-agents",
-              "ai-agents/creating-your-first-agent",
-              "ai-agents/business-teaching"
+              "ai-agents/finding-and-accessing-agents"
             ]
           },
           {
@@ -41,8 +35,7 @@
             "pages": [
               "improved-usage/index",
               "improved-usage/asking-great-questions",
-              "improved-usage/conversation-management",
-              "improved-usage/prompt-library"
+              "improved-usage/conversation-management"
             ]
           },
           {
@@ -158,8 +151,8 @@
     }
   },
   "logo": {
-    "light": "/logo/Wonka_Full_GradientPurpleHighRes.png",
-    "dark": "/logo/Wonka_Full_GradientPurpleHighRes.png"
+    "light": "/images/Tooli_Logo_Pos_L.png",
+    "dark": "/images/Tooli_Logo_Pos_L.png"
   },
   "errors": {
   "404": {

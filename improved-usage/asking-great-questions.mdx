@@ -1,12 +1,12 @@
 ---
 title: "Asking Great Questions"
-description: "Master the fundamentals of effective prompting and advanced techniques to get the best results from AI models."
+description: "Master the fundamentals of effective prompting and advanced techniques to get the best results from Tooli's construction-specific AI agents."
 ---
 
-Getting high-quality responses from AI models starts with well-crafted questions. This guide progresses from basic principles to advanced techniques, helping you continuously improve your prompting skills.
+Getting high-quality responses from Tooli's AI agents starts with well-crafted questions. This guide progresses from basic principles to advanced techniques, helping you continuously improve your prompting skills for construction work.
 
 <Info>
-The quality of AI responses directly correlates with the clarity and structure of your prompts. Small improvements in how you ask questions can dramatically improve results.
+The quality of AI responses directly correlates with the clarity and structure of your prompts. Small improvements in how you ask questions can dramatically improve results for your construction projects.
 </Info>
 
 ---
@@ -24,45 +24,30 @@ The foundation of effective AI interaction:
 The more specific your request, the better the response.
 
 **Instead of:**
-```
-Tell me about marketing.
-```
+Tell me about foundations.
 
 **Try:**
-```
-Explain the three most effective digital marketing strategies for 
-a B2B SaaS company with a $10,000 monthly budget.
-```
+Explain the three most suitable foundation types for a 2-story residential building on clay soil in Belgium, including cost considerations and building code requirements.
 </Accordion>
 
 <Accordion title="Use positive instructions" icon="check">
 Focus on what you want the AI to do, rather than what you don't want.
 
 **Instead of:**
-```
-Don't be too technical.
-```
+Don't make it too technical.
 
 **Try:**
-```
-Explain this in simple terms that a non-technical business owner 
-would understand.
-```
+Explain this in simple terms that a property owner would understand during a client presentation.
 </Accordion>
 
 <Accordion title="Provide context" icon="circle-info">
 Give the AI relevant background information to tailor its response.
 
 **Example:**
-```
-I'm a product manager at a fintech startup. We're deciding between 
-microservices and monolithic architecture for our MVP. What factors 
-should we consider given our 3-month launch timeline and team of 
-4 developers?
-```
+I'm a contractor working on a bathroom renovation in a 1960s apartment building in Brussels. The client wants modern fixtures but we've discovered old plumbing that may need updating. What are the key considerations for upgrading plumbing while minimizing disruption to neighboring units?
 
 <Tip>
-Think of the AI as a knowledgeable colleague who needs context to give you the best advice.
+Think of Tooli's agents as experienced colleagues who need context to give you the best construction advice.
 </Tip>
 </Accordion>
 </AccordionGroup>
@@ -71,454 +56,348 @@ Think of the AI as a knowledgeable colleague who needs context to give you the b
 
 ## Context Setting Techniques
 
-Proper context ensures the AI understands your goals, audience, and constraints.
+Proper context ensures the AI understands your project goals, constraints, and requirements.
 
 <CardGroup cols={2}>
-<Card title="Define Your Audience" icon="users">
-Specify who will use or read the response to adjust complexity and tone.
+<Card title="Define Your Project" icon="users">
+Specify the type of construction work and stakeholders involved.
 </Card>
 
 <Card title="Set the Scope" icon="bullseye">
-Clearly define boundaries to prevent overly broad or narrow responses.
+Clearly define project boundaries, budget, and timeline constraints.
 </Card>
 
 <Card title="Provide Examples" icon="lightbulb">
-Show examples of what you're looking for to guide the output style.
+Show examples of similar projects or desired outcomes.
 </Card>
 
 <Card title="State Your Goal" icon="flag-checkered">
-Explain what you'll do with the response to get more actionable results.
+Explain what you need to deliver to clients or use on-site.
 </Card>
 </CardGroup>
 
-### Effective Context-Setting Pattern
+### Effective Context-Setting Pattern for Construction
 
-Use this structure to provide comprehensive context:
+Use this structure to provide comprehensive project context:
 
-```
-[Role/Perspective]: I'm a [your role] working on [project/task]
+[Role/Expertise]: I'm a [contractor/project manager/architect] working on [project type]
 
-[Situation]: Currently, [describe your situation]
+[Project Details]: Currently working on [describe project and location]
 
-🎯 [GOAL]: What I need to achieve
+GOAL: What I need to achieve
 
-📏 [SCOPE - Constraints]: 
-- [Constraint 1]
-- [Constraint 2]
-- [Constraint 3]
+CONSTRAINTS: 
+- Budget: [amount or range]
+- Timeline: [project duration]
+- Regulations: [specific Belgian/local requirements]
+- Site limitations: [access, space, etc.]
 
-👥 [AUDIENCE]: Who will use/read this or explain the format the output needs to have
+STAKEHOLDERS: Client type and presentation requirements
 
-💡 [EXAMPLES]: Relevant examples or current approach (if applicable)
+REFERENCE: Similar projects or current approach (if applicable)
 
 [Your specific question]
-```
 
 **Example:**
-```
-Role: I'm a data analyst at a healthcare startup
+Role: I'm a general contractor specializing in residential renovations
 
-Situation: We have patient satisfaction survey data from 500 respondents 
-across 3 clinic locations over 6 months.
+Project Details: Complete kitchen renovation in a 1980s townhouse in Ghent, 12m² space with load-bearing wall considerations.
 
-🎯 GOAL: Identify the top 3 factors affecting patient satisfaction to 
-present to our executive team
+GOAL: Create a detailed quote and project timeline for client presentation next week
 
-📏 SCOPE - Constraints:
-- Focus on actionable insights our clinics can implement
-- Results must be statistically significant (p < 0.05)
-- 6-month timeframe across 3 clinic locations
-- Use Tableau for data visualization (required by our organization)
+CONSTRAINTS:
+- Budget: €25,000-30,000 (client's maximum)
+- Timeline: Must complete before Christmas (8 weeks)
+- Regulations: Need electrical compliance with latest Belgian standards
+- Site limitations: Narrow access, must maintain living space during work
 
-👥 AUDIENCE: Non-technical executives who need clear, actionable insights
-- Prefer visual presentations over raw statistics
-- Need to understand business impact
+STAKEHOLDERS: Young family with two children, need clear explanation of disruption periods and safety measures
 
-💡 EXAMPLES: Current approach includes basic satisfaction scores, but 
-executives have requested deeper analysis linking satisfaction to specific 
-operational factors
+REFERENCE: Recently completed similar project in Antwerp that went smoothly, client loved the phased approach to minimize disruption
 
-Question: What analysis approach would you recommend, and what 
-visualization types should I use for the executive presentation?
-```
+Question: What's the best sequence for this renovation to minimize family disruption, and what are the key milestones I should highlight in the client presentation?
 
 <Check>
-This structure applies all four context-setting techniques: **stating your goal** 🎯, **defining your audience** 👥, **setting the scope** 📏, and **providing relevant examples** 💡.
+This structure applies all four context-setting techniques specifically for construction projects: stating your project goal, defining stakeholders, setting constraints, and providing relevant project examples.
 </Check>
 
 ---
 
 ## Structured Output Requests
 
-Requesting specific formats helps you get responses that are immediately usable.
+Requesting specific formats helps you get responses that are immediately usable on construction projects.
 
 <AccordionGroup>
-<Accordion title="Lists and Bullet Points" icon="list">
-Request organized information in scannable format.
+<Accordion title="Project Lists and Schedules" icon="list">
+Request organized information in scannable format for project management.
 
 **Example:**
-```
-List the 5 most important considerations when choosing a database 
-for a real-time analytics platform. For each point:
-- State the consideration
-- Explain why it matters
-- Provide one concrete example
-```
+List the 5 most critical phases for a bathroom renovation project. For each phase:
+- Name of the phase
+- Duration estimate
+- Key trades involved
+- Dependencies on previous phases
+- Potential delays to watch for
 </Accordion>
 
-<Accordion title="Tables and Comparisons" icon="table">
-Get side-by-side comparisons for decision-making.
+<Accordion title="Material Comparisons" icon="table">
+Get side-by-side comparisons for material selection and client presentations.
 
 **Example:**
-```
-Create a comparison table of React, Vue, and Angular with these columns:
-- Framework name
-- Learning curve (easy/moderate/steep)
-- Best use case
-- Community size
-- Enterprise adoption
-```
+Create a comparison table for kitchen countertop materials with these columns:
+- Material name
+- Cost per m² (including installation)
+- Durability (years)
+- Maintenance requirements
+- Best suited for (cooking style/family type)
+- Belgian supplier availability
 </Accordion>
 
-<Accordion title="Step-by-Step Instructions" icon="list-ol">
-Request procedures in sequential format.
+<Accordion title="Step-by-Step Procedures" icon="list-ol">
+Request procedures for construction processes and safety protocols.
 
 **Example:**
-```
-Provide step-by-step instructions to set up CI/CD for a Node.js 
-application using GitHub Actions. Include:
-1. Prerequisites needed
-2. Each configuration step
-3. How to verify each step worked
-4. Common troubleshooting tips
-```
+Provide step-by-step instructions for installing underfloor heating in a bathroom renovation. Include:
+1. Preparation requirements
+2. Each installation step with safety considerations
+3. Testing procedures at each stage
+4. Belgian electrical compliance checkpoints
 </Accordion>
 
-<Accordion title="Code Examples" icon="code">
-Request working code with explanations.
+<Accordion title="Quote Formats" icon="calculator">
+Request professional quote structures ready for client presentation.
 
 **Example:**
-```
-Write a Python function to validate email addresses using regex.
-Include:
-- Complete, runnable code with type hints
-- Inline comments explaining the regex pattern
-- Example usage
-- Edge cases it handles
-```
+Format this renovation scope into a professional quote structure:
+- Executive summary for client
+- Detailed scope breakdown by trade
+- Timeline with key milestones
+- Payment schedule
+- Exclusions and assumptions
+- Belgian warranty standards
 </Accordion>
 
-<Accordion title = "Output Length and Format" icon="book">
-
-Specify desired length and structure to get appropriately detailed responses.
+<Accordion title="Output Length and Detail Level" icon="book">
+Specify desired length for different audiences (clients vs. internal use).
 
 **Examples:**
-```
-Summarize this in exactly 3 bullet points.
-Provide a comprehensive analysis (approximately 500 words).
-Give me a brief one-sentence answer first, then expand with details.
-```
+Summarize this in exactly 3 bullet points for client email.
+Provide a comprehensive technical analysis for building permit application.
+Give me a brief safety overview first, then detailed implementation steps.
 </Accordion>
 </AccordionGroup>
+
 ---
 
-## Prompt Engineering
+## MASTER Prompt Technique
 
-Advanced strategies for crafting prompts that consistently deliver high-quality, targeted responses:
+For complex construction communications, use the MASTER framework to structure comprehensive prompts:
 
-- **Iterative refinement** – Start simple, evaluate, and refine based on responses
-- **Building on responses** – Use previous answers to go deeper
-- **Assign roles** – Give the AI a specific perspective or expertise
-- **Use constraints** – Set clear boundaries for format and scope
+**M** - Mission (what you need to accomplish)  
+**A** - Anchor (key project details and constraints)  
+**S** - Samples (examples of successful similar work)  
+**T** - Tone (professional level and audience)  
+**E** - Elements (specific components to include)  
+**R** - Role (your expertise and perspective)
+
+### Construction Example:
+
+Write a project delay notification email to the client for our kitchen renovation.
+
+MISSION: Inform client about 1-week delay while maintaining trust and professionalism
+
+ANCHOR: Our company, Bouwwerken VDB, is renovating their kitchen in a 1960s home in Leuven. Discovered asbestos tiles during demolition that require certified removal. Project was scheduled to complete next Friday, now delayed until the following week.
+
+SAMPLES: I've attached previous client communications that were well-received - they focus on solutions rather than problems and include clear next steps.
+
+ROLE: You are an experienced general contractor with 15 years in residential renovation.
+
+ELEMENTS:
+- Explanation of delay (asbestos discovery and safety requirements)
+- Revised timeline with new completion date
+- How we're handling the additional cost (absorbed by us due to inadequate initial inspection)
+- Safety measures being taken
+- Daily progress updates during remediation
+
+TONE: Professional but reassuring, focusing on safety and solution-oriented approach while acknowledging the inconvenience.
+
+---
+
+## Agent-Specific Prompting
+
+Each Tooli agent responds best to specific types of prompts:
 
 <AccordionGroup>
-<Accordion title="Iterative refinement" icon="arrows-rotate">
-Don't expect perfection on the first try. Refine your prompts based on the responses you receive.
+<Accordion title="General Assistant" icon="message">
+Best for broad construction questions and guidance to other agents.
+
+**Effective prompts:**
+- "What Belgian building codes apply to..."
+- "Which Tooli agent should help me with..."
+- "Explain the safety requirements for..."
+</Accordion>
+
+<Accordion title="Quote Builder" icon="calculator">
+Responds well to concise project descriptions with key details.
+
+**Effective prompts:**
+- "Bathroom renovation, 2x3m, modern fixtures, €8000 budget"
+- Include: space dimensions, desired finishes, budget range, timeline
+</Accordion>
+
+<Accordion title="Quality Coach" icon="check-circle">
+Upload your completed quote and ask specific improvement questions.
+
+**Effective prompts:**
+- "Review this quote for potential risks"
+- "What am I missing in this proposal?"
+- "How can I strengthen this bid competitively?"
+</Accordion>
+
+<Accordion title="BoQ Checker" icon="search">
+Upload documents and request specific error types to focus the analysis.
+
+**Effective prompts:**
+- "Check for calculation errors and missing items"
+- "Identify high-risk posts in this bill of quantities"
+- "Find potential duplications between work packages"
+</Accordion>
+
+<Accordion title="Variation Builder" icon="edit">
+Provide the change details and desired formality level.
+
+**Effective prompts:**
+- "Client wants to add window during wall renovation - create formal change request"
+- Include: original scope, requested change, impact on timeline/cost
+</Accordion>
+
+<Accordion title="Report Builder" icon="file-text">
+Upload rough notes or describe the meeting/situation needing documentation.
+
+**Effective prompts:**
+- "Convert these site meeting notes into professional report"
+- "Transform this client conversation into structured follow-up actions"
+</Accordion>
+</AccordionGroup>
+
+---
+
+## Prompt Engineering for Construction
+
+Advanced strategies for construction-specific prompting:
+
+<AccordionGroup>
+<Accordion title="Iterative Project Development" icon="arrows-rotate">
+Build project solutions through multiple prompt refinements.
 
 <Steps>
-<Step title="Start with a basic prompt">
-Begin with a clear but simple question.
+<Step title="Start with project basics">
+Begin with essential project information.
 
-```
-Explain how context windows work in AI models.
-```
+I need help planning a loft conversion in a 1930s house in Brussels.
 </Step>
 
-<Step title="Evaluate the response">
-Assess whether the response matches your needs. Too technical? Too vague? Wrong focus?
+<Step title="Evaluate and add specificity">
+Assess the response and add construction-specific details.
+
+I need help planning a loft conversion in a 1930s house in Brussels. The space is 40m², client wants 2 bedrooms, and we need to consider structural beams and stair access. Budget is €35,000.
 </Step>
 
-<Step title="Refine and add specificity">
-Adjust your prompt based on what was missing.
+<Step title="Focus on specific challenges">
+Drill down into technical or regulatory aspects.
 
-```
-Explain how context windows work in AI models in simple terms. 
-Use an analogy to help a non-technical person understand, and 
-explain why this matters for everyday AI users.
-```
-</Step>
-
-<Step title="Iterate until satisfied">
-Continue refining until you get the response quality you need.
-
-<Check>
-Each iteration helps you learn what works best for different types of questions.
-</Check>
+Given the structural beams in this loft conversion, what are the Belgian building code requirements for ceiling height and emergency egress for the two bedrooms?
 </Step>
 </Steps>
 </Accordion>
 
-<Accordion title="Building on responses" icon="comments">
-Use the AI's previous answer to go deeper or pivot your inquiry.
+<Accordion title="Building on Construction Knowledge" icon="comments">
+Use Tooli's responses to explore related construction challenges.
 
 **Pattern:**
-```
-First prompt: "Explain the benefits of microservices architecture."
+First prompt: "Explain the structural considerations for removing a wall in a 1960s home."
 
-Follow-up: "You mentioned scalability as a key benefit. Can you provide 
-a concrete example of how microservices enabled scalability for a company 
-handling rapid growth?"
+Follow-up: "You mentioned load-bearing assessment. What specific tests should we conduct before any demolition, and what Belgian professionals need to be involved?"
 
-Further follow-up: "Given those scalability benefits, what are the main 
-challenges small teams face when adopting microservices?"
-```
-
-<Tip>
-This conversational approach helps you explore topics naturally while maintaining focus.
-</Tip>
+Further follow-up: "If the wall is load-bearing, what are the most cost-effective beam solutions for a 4-meter span in residential construction?"
 </Accordion>
 
-<Accordion title="Assign roles for perspective" icon="user-tie">
-Assign the AI a specific role or expertise to shape its approach and tone.
+<Accordion title="Role-Based Construction Expertise" icon="user-tie">
+Assign specific construction expertise to get targeted advice.
 
 **Example:**
-```
-You are an experienced DevOps engineer with expertise in Kubernetes. 
-Review this deployment configuration and identify potential security 
-vulnerabilities and performance bottlenecks.
+You are an experienced Belgian structural engineer. Review this proposed beam installation for a wall removal project and identify potential issues with building codes, safety factors, and installation challenges.
 
-[Your configuration here]
-```
+[Your structural plans here]
 </Accordion>
 
-<Accordion title="Use constraints effectively" icon="sliders">
-Set clear boundaries to guide the AI's response format and scope.
+<Accordion title="Project Constraints" icon="sliders">
+Set clear project boundaries to guide practical recommendations.
 
 **Example:**
-```
-Analyze this dataset with the following constraints:
-- Focus only on Q4 2024 data
-- Exclude outliers beyond 2 standard deviations
-- Present findings in order of business impact
-- Include statistical confidence levels
-```
+Analyze this renovation proposal with these constraints:
+- Must comply with Brussels residential building codes
+- €20,000 maximum budget
+- 6-week completion timeline
+- Family must remain in house during work
+- Minimize structural modifications
 </Accordion>
 </AccordionGroup>
 
 ---
 
-## Advanced Prompting Techniques
-
-This section provides a quick overview of more sophisticated techniques. For deeper understanding and implementation details, explore comprehensive resources on prompt engineering.
-
-- **Chain-of-thought prompting** – Request step-by-step reasoning for complex problems
-- **Few-shot learning** – Provide examples of the pattern you want
-- **Zero-shot prompting** – Ask for tasks without examples when straightforward
-- **Prompt chaining** – Break complex tasks into sequential prompts
-- **Template creation** – Build reusable prompts for recurring tasks
-- **Using tools** – Explicitly request tool usage when available
+## Common Construction Prompting Mistakes
 
 <AccordionGroup>
-<Accordion title="Chain-of-thought prompting" icon="list-ol">
-Encourage step-by-step reasoning for complex problems by explicitly requesting the AI to show its work.
+<Accordion title="Being Too Generic About Projects">
+**Problem:** "Tell me about bathroom renovations."
 
-**Example:**
-```
-Solve this problem step-by-step, explaining your reasoning at each stage:
-
-Our e-commerce site has a 68% cart abandonment rate. Average cart 
-value is $120. We have 50,000 monthly visitors with a 12% add-to-cart 
-rate. Calculate the potential monthly revenue increase if we reduce 
-abandonment to 55%, and explain what interventions might achieve this.
-
-Show your calculations and reasoning for each step.
-```
-
-**Why it works:** Explicitly requesting step-by-step reasoning activates more thorough processing and makes it easier to verify the logic.
+**Better:** "Plan a bathroom renovation for a 1970s apartment in Antwerp: 2.5x1.8m space, budget €12,000, client wants walk-in shower and modern fixtures. What's the optimal layout and sequence?"
 </Accordion>
 
-<Accordion title="Few-shot learning" icon="graduation-cap">
-Provide examples of the input-output pattern you want the AI to follow.
+<Accordion title="Missing Critical Project Details">
+**Problem:** "Create a quote for kitchen renovation" [without size, budget, location, or client preferences]
 
-**Example:**
-```
-I'll show you examples of customer feedback and how I want them 
-categorized, then you categorize new feedback the same way:
-
-Example 1:
-Feedback: "The app crashes every time I try to upload photos"
-Category: Bug - Critical
-Sentiment: Frustrated
-Action: Escalate to engineering
-
-Example 2:
-Feedback: "Love the new dark mode! Makes it easier to use at night"
-Category: Feature feedback - Positive
-Sentiment: Satisfied
-Action: Share with product team
-
-Example 3:
-Feedback: "It would be great if we could export data to CSV"
-Category: Feature request
-Sentiment: Neutral
-Action: Add to feature backlog
-
-Now categorize this feedback:
-"The search function doesn't find exact matches sometimes"
-```
+**Better:** Include space dimensions, budget range, desired finishes, timeline, and any structural considerations.
 </Accordion>
 
-<Accordion title="Zero-shot prompting" icon="wand-magic-sparkles">
-Ask the AI to perform tasks without examples when the task is straightforward.
+<Accordion title="Ignoring Belgian Regulations">
+**Problem:** "What's the standard electrical setup for kitchens?" [without specifying Belgian codes]
 
-**Best for:**
-- Well-defined tasks with clear expectations
-- Common operations (summarization, translation, classification)
-- When you want unbiased responses without influence from examples
-
-**Example:**
-```
-Translate the following English text to French, maintaining the 
-professional tone:
-
-[Your text here]
-```
+**Better:** "What electrical requirements must we meet for a kitchen renovation in Belgium, including circuit protection and appliance connections per current NBN standards?"
 </Accordion>
 
-<Accordion title="Prompt chaining" icon="link">
-Break complex tasks into multiple prompts, using output from one as input to the next.
+<Accordion title="Not Specifying Audience Level">
+**Problem:** "Explain foundation requirements" [unclear if for client presentation or technical implementation]
 
-**Example sequence:**
-```
-Prompt 1: "Extract all customer pain points mentioned in these 
-support tickets: [tickets]"
-
-Prompt 2: "Take these pain points: [output from prompt 1] 
-and group them into themes."
-
-Prompt 3: "For each theme: [output from prompt 2], suggest 
-one product improvement that addresses multiple pain points."
-```
-
-**Why chain prompts:**
-- Handles complex multi-stage tasks more reliably
-- Allows you to verify intermediate outputs
-- Easier to debug when something goes wrong
-</Accordion>
-
-<Accordion title="Template creation" icon="file-code">
-Develop reusable prompt templates for recurring tasks. Save them in the [Prompt Library](/improved-usage/prompt-library) for easy access.
-
-**Template Example:**
-```
-Analyze this {{document_type}} for a {{target_audience}} audience.
-
-Document:
-{{content}}
-
-Provide:
-1. Executive summary (2-3 sentences)
-2. Key insights (3-5 bullet points)
-3. Recommended actions
-4. Potential risks or considerations
-
-Format: {{output_format:bullets|paragraphs|table}}
-```
-
-<Info>
-See the [Prompt Library](/improved-usage/prompt-library) page for comprehensive guidance on creating and managing reusable prompts with variables.
-</Info>
-</Accordion>
-
-<Accordion title="Using tools in prompts" icon="wrench">
-When working with AI agents that have access to tools (like WonkaChat with MCP connections), you can explicitly request tool usage in your prompts.
-
-**Example:**
-```
-Use the database connection tool to query our customer table and find 
-all customers who signed up in the last 30 days but haven't made a 
-purchase. Then analyze the data and suggest targeted retention strategies.
-```
-
-<Info>
-Learn more about connecting tools in the [Tools Connection](/tools-connection/introduction) section.
-</Info>
-</Accordion>
-</AccordionGroup>
-
-<Info>
-For more information on advanced prompting techniques, visit [OpenAI's](https://platform.openai.com/docs/guides/prompt-engineering), [Anthropic's](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview), or even [Google's](https://ai.google.dev/gemini-api/docs/prompting-intro) prompting guides.
-</Info>
-
-
-## Common Mistakes to Avoid
-
-<AccordionGroup>
-<Accordion title="Being Too Vague">
-**Problem:** "Tell me about AI."
-
-**Better:** "Explain the key differences between supervised and unsupervised machine learning for a business analyst evaluating which approach to use for customer segmentation."
-</Accordion>
-
-<Accordion title="Asking Multiple Questions at Once">
-**Problem:** "How do I improve our SEO, should we use social media ads, and what content strategy works best for B2B?"
-
-**Better:** Break into separate, focused prompts or explicitly request separate treatment of each question.
-</Accordion>
-
-<Accordion title="Providing No Context">
-**Problem:** "Is this a good approach?" [without explaining what 'this' is or what your goals are]
-
-**Better:** Provide the approach, your context, your goals, and criteria for "good."
-</Accordion>
-
-<Accordion title="Assuming Prior Knowledge">
-**Problem:** Starting a new conversation with "Continue from where we left off" without re-establishing context.
-
-**Why this fails:** AI models cannot access information from previous conversations. Each new conversation starts with an empty context window, so the AI has no way to retrieve or reference what was discussed before.
-
-<Info>
-Learn more about context windows and how they work in [Conversation Management](/improved-usage/conversation-management).
-</Info>
-
-**Better:** Briefly summarize relevant context from previous conversations when starting a new chat.
+**Better:** "Explain foundation requirements for client presentation - homeowner needs to understand why we recommend concrete over existing stone foundation for their extension."
 </Accordion>
 </AccordionGroup>
 
 ---
 
-## Best Practices Summary
+## Best Practices for Construction Prompting
 
 <CardGroup cols={2}>
-<Card title="Start Simple" icon="seedling">
-Begin with a clear basic prompt, then add complexity as needed.
+<Card title="Start with Project Essentials" icon="seedling">
+Always include: project type, location, size, budget range, and timeline.
 </Card>
 
-<Card title="Be Specific" icon="bullseye">
-Vague questions get vague answers. Provide details and context.
+<Card title="Be Construction-Specific" icon="bullseye">
+Include trade details, materials, Belgian codes, and site constraints.
 </Card>
 
-<Card title="Iterate" icon="arrows-rotate">
-Refine your prompts based on the responses you receive.
+<Card title="Iterate Through Project Phases" icon="arrows-rotate">
+Refine prompts as project details develop and challenges emerge.
 </Card>
 
-<Card title="Save What Works" icon="bookmark">
-Build a library of effective prompts for recurring tasks.
+<Card title="Save Successful Patterns" icon="bookmark">
+Build a library of effective prompts for recurring project types.
 </Card>
 </CardGroup>
 
 <Tip>
-The best prompt is one that gets you the result you need. Experiment with different approaches and learn what works for your use cases.
+The best construction prompt gets you actionable results you can use immediately on-site or with clients. Experiment with different approaches for various project types.
 </Tip>
 
 ---
@@ -527,10 +406,10 @@ The best prompt is one that gets you the result you need. Experiment with differ
 
 <CardGroup cols={2}>
 <Card title="Conversation Management" icon="comments" href="/improved-usage/conversation-management">
-Learn how to manage long conversations and understand context windows.
+Learn how to manage long project discussions and understand context windows.
 </Card>
 
 <Card title="Prompt Library" icon="bookmark" href="/improved-usage/prompt-library">
-Save and reuse your best prompts with variables for efficiency.
+Save and reuse your best construction prompts with variables for efficiency.
 </Card>
 </CardGroup>

@@ -1,81 +1,77 @@
 ---
 title: "Conversation Management"
-description: "Understand context windows and learn strategies for managing effective AI conversations."
+description: "Understand context windows and learn strategies for managing effective AI conversations for construction projects."
 ---
 
-Understanding how AI models handle conversation history is essential for getting consistent, relevant responses. This guide explains context windows and strategies for managing conversations effectively.
+Understanding how Tooli's AI agents handle conversation history is essential for getting consistent, relevant responses throughout your construction projects. This guide explains context windows and strategies for managing conversations effectively.
 
 <Info>
-AI models don't have memory across separate conversations, they only remember what's in the current conversation's context window.
+Tooli's agents don't have memory across separate conversations - they only remember what's in the current conversation's context window.
 </Info>
 
 ---
 
 ## What is a Context Window?
 
-Think of the context window as the AI's "working memory", it's how much of your conversation the AI can "see" and remember at any given moment.
+Think of the context window as the AI agent's "working memory" - it's how much of your conversation the agent can "see" and remember at any given moment during your project discussion.
 
-**Analogy:**
-Imagine reading a book through a narrow slot that only shows you a few pages at a time. As you slide the slot forward to read new pages, the earlier pages slide out of view. That's how a context window works.
+**Construction Analogy:**
+Imagine reviewing project drawings through a small window that only shows you a few sheets at a time. As you slide to see new drawings, the earlier ones slide out of view. That's how a context window works with your conversation history.
 
-<Frame caption="Context window visualization - Memory Loss ">
-<img src="h" alt="Context window concept illustration - Jordy Example" />
-</Frame>
-
-### Why It Matters
+### Why It Matters for Construction Work
 
 <CardGroup cols={2}>
-<Card title="Response Relevance" icon="bullseye">
-The AI can only reference information within its current context window.
+<Card title="Project Continuity" icon="bullseye">
+The agent can only reference project details within its current context window.
 </Card>
 
-<Card title="Coherence" icon="link">
-Details from early in very long conversations may be "forgotten" as they fall outside the window.
+<Card title="Technical Consistency" icon="link">
+Complex project specifications from early in long conversations may be "forgotten."
 </Card>
 </CardGroup>
 
 ### What Happens When Context Fills Up?
 
-When a conversation exceeds the context window, the AI "forgets" the earliest parts of your conversation. This can lead to:
+When a project conversation exceeds the context window, the agent "forgets" the earliest parts of your discussion. This can lead to:
 
-- Loss of context from earlier decisions or information
-- Potential inconsistency with earlier statements
-- Confused responses when you reference old messages
+- Loss of original project specifications or client requirements
+- Inconsistency with earlier design decisions or material choices
+- Confused responses when you reference earlier project phases
 
 <Warning>
-If you reference something from much earlier in a long conversation and get a confused response, the context window may be full. Start a new conversation and summarize the relevant context.
+If you reference project details from much earlier in a long conversation and get a confused response, the context window may be full. Start a new conversation and summarize the relevant project context.
 </Warning>
 
 ---
 
 ## When to Start vs. Continue Conversations
 
-Knowing when to continue a conversation versus starting a new one is crucial for maintaining quality responses.
+Knowing when to continue a project conversation versus starting a new one is crucial for maintaining quality construction advice.
 
 **When to Start a New Conversation**
 
 Start a new conversation when:
 
 <CardGroup cols={2}>
-<Card title="Changing Topics" icon="arrows-turn-to-dots">
-You're moving to a completely unrelated subject.
+<Card title="New Project Phase" icon="arrows-turn-to-dots">
+Moving from planning to execution, or starting a different trade's work.
 </Card>
 
-<Card title="Getting Confused Responses" icon="circle-question">
-The AI seems confused or references incorrect information.
+<Card title="Different Project Entirely" icon="building">
+Switching from residential to commercial work, or different clients.
 </Card>
 
-<Card title="Long Conversations" icon="scroll">
-You've had an extended back-and-forth exchange.
+<Card title="Agent Getting Confused" icon="circle-question">
+The agent references incorrect project details or gives inconsistent advice.
 </Card>
 
-<Card title="Fresh Perspective" icon="sparkles">
-You want unbiased responses without influence from previous discussion.
+<Card title="Long Technical Discussions" icon="scroll">
+Extended conversations about complex structural or systems issues.
 </Card>
 </CardGroup>
 
 <Warning>
-If responses decline in quality, starting a fresh conversation with a good summary is more efficient than trying to course-correct.
+If responses about your project decline in quality, starting fresh with a good project summary is more efficient than trying to course-correct.
 </Warning>
 
 **When to Continue a Conversation**
@@ -83,121 +79,191 @@ If responses decline in quality, starting a fresh conversation with a good summa
 Continue the current conversation when:
 
 <CardGroup cols={2}>
-<Card title="Building on Previous Work" icon="layer-group">
-Each response directly relates to earlier messages.
+<Card title="Same Project Phase" icon="layer-group">
+Each response directly relates to the current work scope.
 </Card>
 
-<Card title="Iterative Refinement" icon="pen-to-square">
-You're improving or modifying something discussed earlier.
+<Card title="Iterative Design" icon="pen-to-square">
+You're refining quotes, plans, or specifications discussed earlier.
 </Card>
 
-<Card title="Related Subtopics" icon="sitemap">
-You're exploring different facets of the same overall subject.
+<Card title="Related Project Elements" icon="sitemap">
+Exploring different aspects of the same renovation or construction project.
 </Card>
 
-<Card title="Maintaining Context" icon="memory">
-The AI needs to remember earlier choices or constraints.
+<Card title="Sequential Work Planning" icon="memory">
+The agent needs to remember earlier decisions about materials, timeline, or methods.
 </Card>
 </CardGroup>
 
 <Tip>
-Ask yourself: "Does the AI need to remember our previous discussion to answer this well?" If yes, continue. If no, start fresh.
+Ask yourself: "Does the agent need to remember our previous project discussion to give good construction advice?" If yes, continue. If no, start fresh.
 </Tip>
 
 ---
 
 ## Building on Previous Responses
 
-Effective conversation flow builds naturally on what's already been discussed.
+Effective project conversations build naturally on construction work already discussed.
 
 **Example progression:**
-```
-You: "Explain the benefits of containerization with Docker."
+You: "What are the key considerations for a kitchen renovation in a 1960s home?"
 
-AI: [Provides explanation including portability, consistency, and isolation]
+Agent: [Provides explanation including plumbing updates, electrical compliance, and structural considerations]
 
-You: "You mentioned isolation as a benefit. How does Docker's isolation 
-compare to traditional virtual machines in terms of resource usage?"
-```
+You: "You mentioned electrical compliance as important. What specific upgrades are required to meet current Belgian electrical codes for kitchen appliances?"
 
-In longer conversations, periodically summarize key points to reinforce important context:
+You: "Given those electrical requirements, how should we sequence the work to minimize disruption to the family living there?"
 
-```
-So far we've established that:
-1. Microservices offer scalability benefits for our use case
-2. The team needs Kubernetes experience
-3. The initial setup cost is approximately 3 months
+In longer project conversations, periodically summarize key decisions to reinforce important context:
 
-Given this context, what's the recommended team structure?
-```
+So far for this bathroom renovation we've established:
+1. Budget is €15,000 maximum
+2. Client wants walk-in shower instead of bathtub
+3. Plumbing needs updating to current Belgian standards
+4. Work must complete in 3 weeks before family holiday
+
+Given these constraints, what's the critical path for scheduling trades?
 
 ---
 
-## Advanced Knowledge
- 
-### Understanding Tokens and Model Selection
+## Project-Specific Conversation Strategies
 
-Context windows are measured in **tokens** that represent roughly 4 characters or about ¾ of a word.
+### Managing Multi-Trade Projects
 
-**Common Models and Their Context Windows:**
+For complex renovations involving multiple trades, organize conversations by work package:
 
-| Model | Context Window | Best For |
-|-------|---------------|----------|
-| **GPT-4o** | 128K tokens | Balanced performance, general-purpose tasks |
-| **GPT-4o mini** | 128K tokens | High-volume, cost-sensitive conversations |
-| **Claude Sonnet 4** | 200K tokens | Advanced reasoning, document analysis |
-| **Gemini 2.5 Pro** | 1M tokens | Extended conversations, large document analysis |
-| **Gemini 2.5 Flash** | 1M tokens | Speed-optimized long conversations |
+Conversation 1: "Kitchen Renovation - Structural & Plumbing"
+Conversation 2: "Kitchen Renovation - Electrical & Lighting"  
+Conversation 3: "Kitchen Renovation - Finishes & Timeline"
 
-<Info>
-When selecting a model in WonkaChat, consider the context window if you're planning extended conversations. Learn more in [Creating Your First Agent](/ai-agents/creating-your-first-agent).
-</Info>
+This keeps technical discussions focused and prevents mixing incompatible advice.
 
-### Managing Multiple Workstreams
+### Client Communication vs. Technical Planning
 
-For juggling multiple projects, use separate conversations by project:
+Use separate conversations for different purposes:
 
-```
-Conversation 1: "Project Alpha - Frontend Development"
-Conversation 2: "Project Alpha - Backend API"
-Conversation 3: "Project Beta - Data Analysis"
-```
+Technical Conversation: "Structural analysis for load-bearing wall removal"
+Client Conversation: "How to explain structural work to homeowner in simple terms"
 
-This approach keeps context clean and prevents "polluting" your context window with information that might bias future responses.
+### Rehydrating Project Context
 
-### Rehydrating Context
+When starting a fresh conversation about an ongoing project, provide a concise summary:
 
-When starting a fresh conversation about a related topic, provide a concise summary of relevant prior context:
+"Project context: We're doing a complete bathroom renovation in a 1980s townhouse in Ghent. Client budget is €18,000, timeline is 4 weeks, and we've already confirmed the structural floor can support a new tile installation. The plumbing rough-in is complete and inspected.
 
-```
-"Context from previous session: We're implementing a new CRM system for 
-our sales team of 50 people. Budget is $100K, timeline is 6 months, and 
-we need integration with our existing email platform and calendar system.
-
-New question: Given these requirements, what training approach would you 
-recommend for onboarding the sales team?"
-```
+New question: What's the optimal sequence for tiling, fixture installation, and final plumbing connections to minimize rework?"
 
 ---
 
-## Common Pitfalls to Avoid
+## Agent-Specific Conversation Management
+
+Different Tooli agents work best with different conversation approaches:
 
 <AccordionGroup>
-<Accordion title="Expecting the AI to Remember Past Conversations">
-**Problem:** Starting a new conversation with "As we discussed yesterday..." without re-establishing context.
-
-**Solution:** Always provide relevant context at the start of new conversations.
+<Accordion title="General Assistant">
+**Best for:** Extended project discussions and guidance to other agents
+**Strategy:** Continue conversations when exploring related aspects of the same project
+**When to restart:** When switching to completely different project types
 </Accordion>
 
-<Accordion title="Overloading a Single Conversation">
-**Problem:** Using one conversation for multiple unrelated tasks, leading to confused responses.
-
-**Solution:** Start new conversations for distinct topics.
+<Accordion title="Quote Builder">
+**Best for:** Focused quote development sessions
+**Strategy:** One conversation per quote or major scope revision
+**When to restart:** For each new client project or major scope change
 </Accordion>
 
-<Accordion title="Ignoring Quality Decline">
-**Problem:** Continuing a conversation even when responses become less relevant or accurate.
+<Accordion title="Quality Coach">
+**Best for:** Iterative quote improvement
+**Strategy:** Continue while refining the same quote
+**When to restart:** When reviewing completely different quotes or project types
+</Accordion>
 
-**Solution:** Recognize when the context window is full and start fresh with a summary.
+<Accordion title="BoQ Checker">
+**Best for:** Single document analysis sessions
+**Strategy:** Usually one conversation per document review
+**When to restart:** For each new bill of quantities or project phase
+</Accordion>
+
+<Accordion title="Variation Builder">
+**Best for:** Individual change request development
+**Strategy:** One conversation per change order or variation
+**When to restart:** For each distinct project change or different contract
+</Accordion>
+
+<Accordion title="Report Builder">
+**Best for:** Single meeting or documentation session
+**Strategy:** One conversation per report or meeting summary
+**When to restart:** For each new meeting or different project milestone
 </Accordion>
 </AccordionGroup>
+
+---
+
+## Common Construction Conversation Pitfalls
+
+<AccordionGroup>
+<Accordion title="Mixing Different Projects">
+**Problem:** Discussing multiple client projects in one conversation, leading to mixed specifications and recommendations.
+
+**Solution:** Use separate conversations for each client project, even if they're similar work types.
+</Accordion>
+
+<Accordion title="Losing Project Specifications">
+**Problem:** Long technical discussions where original client requirements get forgotten in the context window.
+
+**Solution:** Periodically restate key project parameters (budget, timeline, client preferences) in long conversations.
+</Accordion>
+
+<Accordion title="Expecting Cross-Conversation Memory">
+**Problem:** Starting a new conversation with "As we discussed about the Smith kitchen project..." without re-establishing context.
+
+**Solution:** Always provide relevant project context when starting fresh conversations.
+</Accordion>
+
+<Accordion title="Overloading Single Conversations">
+**Problem:** Using one conversation for planning, quoting, execution, and client communication, leading to confused responses.
+
+**Solution:** Separate conversations by purpose and project phase.
+</Accordion>
+</AccordionGroup>
+
+---
+
+## Best Practices for Construction Conversations
+
+<CardGroup cols={2}>
+<Card title="One Project Per Conversation" icon="building">
+Keep client projects separate to avoid mixing specifications and requirements.
+</Card>
+
+<Card title="Summarize Key Decisions" icon="list-check">
+Periodically restate important project parameters in long technical discussions.
+</Card>
+
+<Card title="Fresh Start for Major Changes" icon="refresh">
+New conversation when project scope significantly changes or new phase begins.
+</Card>
+
+<Card title="Context Reset When Confused" icon="arrows-rotate">
+If responses decline in quality, restart with clear project summary.
+</Card>
+</CardGroup>
+
+<Tip>
+Think of each conversation as a focused work session. Just like you wouldn't mix electrical planning with finish selection in a real meeting, keep your AI conversations focused on related topics.
+</Tip>
+
+---
+
+## Next Steps
+
+<CardGroup cols={2}>
+<Card title="Asking Great Questions" icon="question" href="/improved-usage/asking-great-questions">
+Learn how to structure effective construction prompts for better results.
+</Card>
+
+<Card title="Prompt Library" icon="bookmark" href="/improved-usage/prompt-library">
+Save and reuse your best construction prompts with project variables.
+</Card>
+</CardGroup>
