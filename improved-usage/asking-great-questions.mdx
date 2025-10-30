@@ -1,9 +1,13 @@
 ---
 title: "Asking Great Questions"
-description: "Master the fundamentals of effective prompting and advanced techniques to get the best results from Tooli's construction-specific AI agents."
+description: "Master the fundamentals of effective prompting and advanced techniques to get the best results from Tooli's construction-specific [AI agents](/ai-agents/introduction)."
 ---
 
-Getting high-quality responses from Tooli's AI agents starts with well-crafted questions. This guide progresses from basic principles to advanced techniques, helping you continuously improve your prompting skills for construction work.
+## What is a Prompt?
+
+A **prompt** is simply the question or instruction you give to an AI agent. Think of it as briefing a colleague - the clearer and more detailed your brief, the better results you'll get.
+
+In construction work, a good prompt is like giving clear project instructions: you wouldn't tell a subcontractor "do some electrical work" - you'd specify exactly what needs to be done, where, when, and to what standards.
 
 <Info>
 The quality of AI responses directly correlates with the clarity and structure of your prompts. Small improvements in how you ask questions can dramatically improve results for your construction projects.
@@ -11,405 +15,302 @@ The quality of AI responses directly correlates with the clarity and structure o
 
 ---
 
-## Basic Prompting Principles
+## The MASTER Prompt Technique
 
-The foundation of effective AI interaction:
-
-- **Be clear and specific** – Vague questions produce vague answers
-- **Use positive instructions** – Focus on what you want, not what you don't want  
-- **Provide context** – Give relevant background information to tailor responses
+For complex construction tasks, use the **MASTER framework** to structure comprehensive prompts that get professional results every time:
 
 <AccordionGroup>
-<Accordion title="Be clear and specific" icon="bullseye">
-The more specific your request, the better the response.
+<Accordion title="M - Mission" icon="flag">
+**What you need to accomplish**
 
-**Instead of:**
-Tell me about foundations.
+Clearly state your goal and what you want to achieve.
 
-**Try:**
-Explain the three most suitable foundation types for a 2-story residential building on clay soil in Belgium, including cost considerations and building code requirements.
+**Examples:**
+- "Create a professional quote for client presentation"
+- "Analyze this structural plan for safety issues"
+- "Write a delay notification email to maintain client trust"
 </Accordion>
 
-<Accordion title="Use positive instructions" icon="check">
-Focus on what you want the AI to do, rather than what you don't want.
+<Accordion title="A - Anchor" icon="anchor">
+**Key project details and constraints**
 
-**Instead of:**
-Don't make it too technical.
+Provide essential project context that shapes the response.
 
-**Try:**
-Explain this in simple terms that a property owner would understand during a client presentation.
+**Include:**
+- Project type and location
+- Budget and timeline constraints
+- Site limitations or special requirements
+- Regulatory requirements (Belgian codes, permits)
+
+**Example:**
+"Kitchen renovation in 1960s townhouse, Ghent. Budget €25,000-30,000, 8-week timeline, narrow access, family living on-site during work."
 </Accordion>
 
-<Accordion title="Provide context" icon="circle-info">
-Give the AI relevant background information to tailor its response.
+<Accordion title="S - Samples" icon="lightbulb">
+**Examples of successful similar work**
 
-**Example:**
-I'm a contractor working on a bathroom renovation in a 1960s apartment building in Brussels. The client wants modern fixtures but we've discovered old plumbing that may need updating. What are the key considerations for upgrading plumbing while minimizing disruption to neighboring units?
+Reference similar projects or attach examples of the format you want.
 
-<Tip>
-Think of Tooli's agents as experienced colleagues who need context to give you the best construction advice.
-</Tip>
-</Accordion>
-</AccordionGroup>
-
----
-
-## Context Setting Techniques
-
-Proper context ensures the AI understands your project goals, constraints, and requirements.
-
-<CardGroup cols={2}>
-<Card title="Define Your Project" icon="users">
-Specify the type of construction work and stakeholders involved.
-</Card>
-
-<Card title="Set the Scope" icon="bullseye">
-Clearly define project boundaries, budget, and timeline constraints.
-</Card>
-
-<Card title="Provide Examples" icon="lightbulb">
-Show examples of similar projects or desired outcomes.
-</Card>
-
-<Card title="State Your Goal" icon="flag-checkered">
-Explain what you need to deliver to clients or use on-site.
-</Card>
-</CardGroup>
-
-### Effective Context-Setting Pattern for Construction
-
-Use this structure to provide comprehensive project context:
-
-[Role/Expertise]: I'm a [contractor/project manager/architect] working on [project type]
-
-[Project Details]: Currently working on [describe project and location]
-
-GOAL: What I need to achieve
-
-CONSTRAINTS: 
-- Budget: [amount or range]
-- Timeline: [project duration]
-- Regulations: [specific Belgian/local requirements]
-- Site limitations: [access, space, etc.]
-
-STAKEHOLDERS: Client type and presentation requirements
-
-REFERENCE: Similar projects or current approach (if applicable)
-
-[Your specific question]
-
-**Example:**
-Role: I'm a general contractor specializing in residential renovations
-
-Project Details: Complete kitchen renovation in a 1980s townhouse in Ghent, 12m² space with load-bearing wall considerations.
-
-GOAL: Create a detailed quote and project timeline for client presentation next week
-
-CONSTRAINTS:
-- Budget: €25,000-30,000 (client's maximum)
-- Timeline: Must complete before Christmas (8 weeks)
-- Regulations: Need electrical compliance with latest Belgian standards
-- Site limitations: Narrow access, must maintain living space during work
-
-STAKEHOLDERS: Young family with two children, need clear explanation of disruption periods and safety measures
-
-REFERENCE: Recently completed similar project in Antwerp that went smoothly, client loved the phased approach to minimize disruption
-
-Question: What's the best sequence for this renovation to minimize family disruption, and what are the key milestones I should highlight in the client presentation?
-
-<Check>
-This structure applies all four context-setting techniques specifically for construction projects: stating your project goal, defining stakeholders, setting constraints, and providing relevant project examples.
-</Check>
-
----
-
-## Structured Output Requests
-
-Requesting specific formats helps you get responses that are immediately usable on construction projects.
-
-<AccordionGroup>
-<Accordion title="Project Lists and Schedules" icon="list">
-Request organized information in scannable format for project management.
-
-**Example:**
-List the 5 most critical phases for a bathroom renovation project. For each phase:
-- Name of the phase
-- Duration estimate
-- Key trades involved
-- Dependencies on previous phases
-- Potential delays to watch for
+**Examples:**
+- "I've attached previous client emails that were well-received"
+- "Similar to the bathroom project we completed in Antwerp"
+- "Format like our standard safety reports"
 </Accordion>
 
-<Accordion title="Material Comparisons" icon="table">
-Get side-by-side comparisons for material selection and client presentations.
+<Accordion title="T - Tone" icon="message">
+**Professional level and audience**
 
-**Example:**
-Create a comparison table for kitchen countertop materials with these columns:
-- Material name
-- Cost per m² (including installation)
-- Durability (years)
-- Maintenance requirements
-- Best suited for (cooking style/family type)
-- Belgian supplier availability
+Specify how formal or technical the response should be.
+
+**Options:**
+- Professional but warm (client communication)
+- Technical and precise (permit applications)
+- Simple and clear (homeowner explanations)
+- Formal and structured (contract variations)
 </Accordion>
 
-<Accordion title="Step-by-Step Procedures" icon="list-ol">
-Request procedures for construction processes and safety protocols.
+<Accordion title="E - Elements" icon="list">
+**Specific components to include**
 
-**Example:**
-Provide step-by-step instructions for installing underfloor heating in a bathroom renovation. Include:
-1. Preparation requirements
-2. Each installation step with safety considerations
-3. Testing procedures at each stage
-4. Belgian electrical compliance checkpoints
-</Accordion>
+List exactly what sections or information you need.
 
-<Accordion title="Quote Formats" icon="calculator">
-Request professional quote structures ready for client presentation.
-
-**Example:**
-Format this renovation scope into a professional quote structure:
+**Example for quote:**
 - Executive summary for client
 - Detailed scope breakdown by trade
 - Timeline with key milestones
-- Payment schedule
-- Exclusions and assumptions
-- Belgian warranty standards
+- Payment schedule and warranty terms
 </Accordion>
 
-<Accordion title="Output Length and Detail Level" icon="book">
-Specify desired length for different audiences (clients vs. internal use).
+<Accordion title="R - Role" icon="user-tie">
+**Your expertise and perspective**
+
+Tell the AI what professional perspective to take.
 
 **Examples:**
-Summarize this in exactly 3 bullet points for client email.
-Provide a comprehensive technical analysis for building permit application.
-Give me a brief safety overview first, then detailed implementation steps.
+- "You are an experienced general contractor"
+- "Respond as a Belgian structural engineer"
+- "Take the perspective of a project manager"
 </Accordion>
 </AccordionGroup>
 
----
+### MASTER Example in Action
 
-## MASTER Prompt Technique
-
-For complex construction communications, use the MASTER framework to structure comprehensive prompts:
-
-**M** - Mission (what you need to accomplish)  
-**A** - Anchor (key project details and constraints)  
-**S** - Samples (examples of successful similar work)  
-**T** - Tone (professional level and audience)  
-**E** - Elements (specific components to include)  
-**R** - Role (your expertise and perspective)
-
-### Construction Example:
-
+<Tabs>
+<Tab title="The Prompt">
 Write a project delay notification email to the client for our kitchen renovation.
 
-MISSION: Inform client about 1-week delay while maintaining trust and professionalism
+**MISSION:** Inform client about 1-week delay while maintaining trust and professionalism
 
-ANCHOR: Our company, Bouwwerken VDB, is renovating their kitchen in a 1960s home in Leuven. Discovered asbestos tiles during demolition that require certified removal. Project was scheduled to complete next Friday, now delayed until the following week.
+**ANCHOR:** Our company, Bouwwerken VDB, is renovating their kitchen in a 1960s home in Leuven. Discovered asbestos tiles during demolition that require certified removal. Project was scheduled to complete next Friday, now delayed until the following week.
 
-SAMPLES: I've attached previous client communications that were well-received - they focus on solutions rather than problems and include clear next steps.
+**SAMPLES:** I've attached previous client communications that were well-received - they focus on solutions rather than problems and include clear next steps.
 
-ROLE: You are an experienced general contractor with 15 years in residential renovation.
+**TONE:** Professional but reassuring, focusing on safety and solution-oriented approach while acknowledging the inconvenience.
 
-ELEMENTS:
+**ELEMENTS:**
 - Explanation of delay (asbestos discovery and safety requirements)
 - Revised timeline with new completion date
-- How we're handling the additional cost (absorbed by us due to inadequate initial inspection)
+- How we're handling the additional cost (absorbed by us)
 - Safety measures being taken
 - Daily progress updates during remediation
 
-TONE: Professional but reassuring, focusing on safety and solution-oriented approach while acknowledging the inconvenience.
+**ROLE:** You are an experienced general contractor with 15 years in residential renovation.
+</Tab>
+
+<Tab title="The Result">
+The AI delivers a professional, empathetic email that:
+- Explains the safety necessity clearly
+- Takes responsibility appropriately
+- Provides specific new timeline
+- Reassures about cost coverage
+- Maintains client confidence
+- Includes proactive communication plan
+</Tab>
+</Tabs>
+
+---
+
+## Essential Principles & Output Formats
+
+Master these fundamentals and get responses in formats you can immediately use:
+
+<CardGroup cols={3}>
+<Card title="Be Specific" icon="bullseye">
+**Instead of:** "Tell me about foundations"
+**Try:** "Compare strip, pad, and raft foundations for 2-story house on clay soil in Belgium"
+</Card>
+
+<Card title="Provide Context" icon="info">
+**Always include:** Project type, location, budget, timeline, and who will use the response
+</Card>
+
+<Card title="Request Usable Formats" icon="list">
+**Examples:** Lists, comparison tables, step-by-step instructions, client-ready summaries
+</Card>
+</CardGroup>
+
+<Tabs>
+<Tab title="Project Management">
+**Request:** "List the 5 most critical phases for a bathroom renovation project. For each phase include: duration estimate, key trades involved, dependencies, and potential delays to watch for."
+
+**You get:** Organized, scannable information ready for project planning.
+</Tab>
+
+<Tab title="Client Presentations">
+**Request:** "Create a comparison table for kitchen countertop materials with columns for: cost per m², durability, maintenance needs, and Belgian supplier availability."
+
+**You get:** Professional comparison ready for client decision-making.
+</Tab>
+
+<Tab title="Technical Implementation">
+**Request:** "Provide step-by-step instructions for installing underfloor heating in bathroom renovation, including safety considerations and Belgian electrical compliance checkpoints."
+
+**You get:** Detailed procedures for safe, compliant work.
+</Tab>
+</Tabs>
 
 ---
 
 ## Agent-Specific Prompting
 
-Each Tooli agent responds best to specific types of prompts:
+Each Tooli agent has unique strengths - match your task to **the right specialist**:
 
 <AccordionGroup>
-<Accordion title="General Assistant" icon="message">
-Best for broad construction questions and guidance to other agents.
+<Accordion title="General Assistant - Your Construction Guide" icon="message">
+**Perfect for:** Broad questions, regulatory guidance, and directing you to other agents
 
-**Effective prompts:**
-- "What Belgian building codes apply to..."
-- "Which Tooli agent should help me with..."
-- "Explain the safety requirements for..."
+**Include:** Project context, specific challenges, regulatory requirements
+
+**Example:** "What Belgian building codes apply to converting a garage into living space? Which Tooli agent should help me create the formal documentation?"
+
+**Agent advantage:** Will ask clarifying questions and guide you to the right specialist
 </Accordion>
 
-<Accordion title="Quote Builder" icon="calculator">
-Responds well to concise project descriptions with key details.
+<Accordion title="Quote Builder - Your Pricing Specialist" icon="calculator">
+**Perfect for:** Creating complete project quotes from client requests
 
-**Effective prompts:**
-- "Bathroom renovation, 2x3m, modern fixtures, €8000 budget"
-- Include: space dimensions, desired finishes, budget range, timeline
+**Include:** Space dimensions, desired finishes, budget range, timeline, site conditions
+
+**Example:** "Bathroom renovation, 2.5x1.8m, modern walk-in shower, €12,000 budget, 1970s apartment in Antwerp"
+
+**Agent advantage:** Will ask for missing details to complete professional quotes
 </Accordion>
 
-<Accordion title="Quality Coach" icon="check-circle">
-Upload your completed quote and ask specific improvement questions.
+<Accordion title="Quality Coach - Your Improvement Expert" icon="check-circle">
+**Perfect for:** Reviewing and improving existing work
 
-**Effective prompts:**
-- "Review this quote for potential risks"
-- "What am I missing in this proposal?"
-- "How can I strengthen this bid competitively?"
+**Include:** Upload your document and ask specific improvement questions
+
+**Examples:** "What risks am I missing?" / "How can I strengthen this bid?"
+
+**Agent advantage:** Will identify weak points you might miss
 </Accordion>
 
-<Accordion title="BoQ Checker" icon="search">
-Upload documents and request specific error types to focus the analysis.
+<Accordion title="BoQ Checker - Your Error Detective" icon="search">
+**Perfect for:** Document analysis and error detection
 
-**Effective prompts:**
-- "Check for calculation errors and missing items"
-- "Identify high-risk posts in this bill of quantities"
-- "Find potential duplications between work packages"
+**Include:** Upload files and specify error types to focus on
+
+**Examples:** "Check for calculation errors" / "Find potential duplications"
+
+**Agent advantage:** Will ask clarifying questions about scope if needed
 </Accordion>
 
-<Accordion title="Variation Builder" icon="edit">
-Provide the change details and desired formality level.
+<Accordion title="Variation Builder - Your Change Specialist" icon="edit">
+**Perfect for:** Formalizing project changes and variations
 
-**Effective prompts:**
-- "Client wants to add window during wall renovation - create formal change request"
-- Include: original scope, requested change, impact on timeline/cost
+**Include:** Original scope, requested changes, timeline/cost impact, formality level
+
+**Agent advantage:** Will request missing contract details if needed
 </Accordion>
 
-<Accordion title="Report Builder" icon="file-text">
-Upload rough notes or describe the meeting/situation needing documentation.
+<Accordion title="Report Builder - Your Documentation Expert" icon="file-text">
+**Perfect for:** Converting notes to structured reports
 
-**Effective prompts:**
-- "Convert these site meeting notes into professional report"
-- "Transform this client conversation into structured follow-up actions"
+**Include:** Meeting context, attendees, project phase, required format
+
+**Agent advantage:** Will ask about missing attendees or project details
 </Accordion>
 </AccordionGroup>
 
----
-
-## Prompt Engineering for Construction
-
-Advanced strategies for construction-specific prompting:
-
-<AccordionGroup>
-<Accordion title="Iterative Project Development" icon="arrows-rotate">
-Build project solutions through multiple prompt refinements.
-
-<Steps>
-<Step title="Start with project basics">
-Begin with essential project information.
-
-I need help planning a loft conversion in a 1930s house in Brussels.
-</Step>
-
-<Step title="Evaluate and add specificity">
-Assess the response and add construction-specific details.
-
-I need help planning a loft conversion in a 1930s house in Brussels. The space is 40m², client wants 2 bedrooms, and we need to consider structural beams and stair access. Budget is €35,000.
-</Step>
-
-<Step title="Focus on specific challenges">
-Drill down into technical or regulatory aspects.
-
-Given the structural beams in this loft conversion, what are the Belgian building code requirements for ceiling height and emergency egress for the two bedrooms?
-</Step>
-</Steps>
-</Accordion>
-
-<Accordion title="Building on Construction Knowledge" icon="comments">
-Use Tooli's responses to explore related construction challenges.
-
-**Pattern:**
-First prompt: "Explain the structural considerations for removing a wall in a 1960s home."
-
-Follow-up: "You mentioned load-bearing assessment. What specific tests should we conduct before any demolition, and what Belgian professionals need to be involved?"
-
-Further follow-up: "If the wall is load-bearing, what are the most cost-effective beam solutions for a 4-meter span in residential construction?"
-</Accordion>
-
-<Accordion title="Role-Based Construction Expertise" icon="user-tie">
-Assign specific construction expertise to get targeted advice.
-
-**Example:**
-You are an experienced Belgian structural engineer. Review this proposed beam installation for a wall removal project and identify potential issues with building codes, safety factors, and installation challenges.
-
-[Your structural plans here]
-</Accordion>
-
-<Accordion title="Project Constraints" icon="sliders">
-Set clear project boundaries to guide practical recommendations.
-
-**Example:**
-Analyze this renovation proposal with these constraints:
-- Must comply with Brussels residential building codes
-- €20,000 maximum budget
-- 6-week completion timeline
-- Family must remain in house during work
-- Minimize structural modifications
-</Accordion>
-</AccordionGroup>
+<Warning>
+**Pro Tip:** Don't try to include every detail upfront. Tooli's agents are designed to have conversations and will ask for exactly what they need to deliver great results.
+</Warning>
 
 ---
 
-## Common Construction Prompting Mistakes
+## Advanced Strategies & Common Mistakes
 
-<AccordionGroup>
-<Accordion title="Being Too Generic About Projects">
-**Problem:** "Tell me about bathroom renovations."
+<Tabs>
+<Tab title="Iterative Development">
+Build complex solutions step-by-step:
 
-**Better:** "Plan a bathroom renovation for a 1970s apartment in Antwerp: 2.5x1.8m space, budget €12,000, client wants walk-in shower and modern fixtures. What's the optimal layout and sequence?"
-</Accordion>
+1. **Start Basic:** "I need help planning a loft conversion in a 1930s house in Brussels."
+2. **Add Specifics:** "The space is 40m², client wants 2 bedrooms, structural beams present, budget €35,000."
+3. **Focus Details:** "Given the structural beams, what are Belgian building code requirements for ceiling height and emergency egress?"
 
-<Accordion title="Missing Critical Project Details">
-**Problem:** "Create a quote for kitchen renovation" [without size, budget, location, or client preferences]
+**Why this works:** Each step builds naturally without overwhelming the initial prompt.
+</Tab>
 
-**Better:** Include space dimensions, budget range, desired finishes, timeline, and any structural considerations.
-</Accordion>
+<Tab title="Conversation Building">
+Use previous responses to explore related challenges:
 
-<Accordion title="Ignoring Belgian Regulations">
-**Problem:** "What's the standard electrical setup for kitchens?" [without specifying Belgian codes]
+1. **Initial:** "Explain structural considerations for wall removal in 1960s home"
+2. **Follow-up:** "You mentioned load-bearing assessment - what specific tests should we conduct?"
+3. **Deep dive:** "If it's load-bearing, what are cost-effective beam solutions for 4-meter span?"
 
-**Better:** "What electrical requirements must we meet for a kitchen renovation in Belgium, including circuit protection and appliance connections per current NBN standards?"
-</Accordion>
+**Result:** Deep, interconnected advice that addresses real project complexity.
+</Tab>
 
-<Accordion title="Not Specifying Audience Level">
-**Problem:** "Explain foundation requirements" [unclear if for client presentation or technical implementation]
+<Tab title="Avoid These Mistakes">
+**Generic Questions:** "Tell me about bathroom renovations"
+→ **Better:** Include specific project details, location, budget, client requirements
 
-**Better:** "Explain foundation requirements for client presentation - homeowner needs to understand why we recommend concrete over existing stone foundation for their extension."
-</Accordion>
-</AccordionGroup>
+**Missing Context:** "Create a quote" without project details
+→ **Better:** Always answer: What? Where? When? How much? For whom?
+
+**Audience Confusion:** Unclear if response is for clients or technical use
+→ **Better:** Specify audience and required formality level
+</Tab>
+</Tabs>
 
 ---
 
-## Best Practices for Construction Prompting
+## Your Success Toolkit
+<Note>
+**The Golden Rule:** The best construction prompt gets you actionable results you can use immediately on-site or with clients.
+</Note>
 
 <CardGroup cols={2}>
-<Card title="Start with Project Essentials" icon="seedling">
-Always include: project type, location, size, budget range, and timeline.
+<Card title="Essential Elements" icon="list">
+- Project type, location, size
+- Budget range and timeline
+- Belgian codes and regulations
+- Client preferences and constraints
 </Card>
 
-<Card title="Be Construction-Specific" icon="bullseye">
-Include trade details, materials, Belgian codes, and site constraints.
-</Card>
-
-<Card title="Iterate Through Project Phases" icon="arrows-rotate">
-Refine prompts as project details develop and challenges emerge.
-</Card>
-
-<Card title="Save Successful Patterns" icon="bookmark">
-Build a library of effective prompts for recurring project types.
+<Card title="Success Strategies" icon="check">
+- Use MASTER framework for complex tasks
+- Build solutions iteratively
+- Let agents guide with questions
+- Save successful patterns
 </Card>
 </CardGroup>
 
 <Tip>
-The best construction prompt gets you actionable results you can use immediately on-site or with clients. Experiment with different approaches for various project types.
+Most importantly - let the agents ask questions rather than trying to include everything upfront. They're designed to have conversations and guide you to the best results.
 </Tip>
 
 ---
 
-## Next Steps
+## Ready to Level Up?
 
 <CardGroup cols={2}>
-<Card title="Conversation Management" icon="comments" href="/improved-usage/conversation-management">
-Learn how to manage long project discussions and understand context windows.
+<Card title="Master Long Conversations" icon="comments" href="/improved-usage/conversation-management">
+Learn how to manage complex project discussions and understand when to start fresh conversations.
 </Card>
 
-<Card title="Prompt Library" icon="bookmark" href="/improved-usage/prompt-library">
-Save and reuse your best construction prompts with variables for efficiency.
+<Card title="Build Your Prompt Library" icon="bookmark" href="/improved-usage/prompt-library">
+Save and reuse your best construction prompts with variables for consistent, efficient results.
 </Card>
 </CardGroup>

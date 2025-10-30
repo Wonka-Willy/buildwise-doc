@@ -152,7 +152,7 @@
   },
   "logo": {
     "light": "/images/Tooli_Logo_Pos_L.png",
-    "dark": "/images/Tooli_Logo_Pos_L.png"
+    "dark": "/images/Tooli_Logo_Neg_L.png"
   },
   "errors": {
   "404": {
