@@ -1,24 +1,230 @@
 ---
-title: "Changelog"
-description: "All notable changes to WonkaChat, organized by version"
+title: "Platform Updates & Known Issues"
+description: "Stay informed about current development status, known issues, and upcoming improvements to Tooli"
 ---
 
-<CardGroup cols={1}>
-<Card title="Changelog coming soon" icon="note">
-We’re preparing a clear, well-structured changelog with version highlights, improvements, and fixes. You’ll be able to quickly scan what changed and why it matters.
+# Platform Updates & Known Issues
+
+Stay informed about current development status, known issues, and upcoming improvements to Tooli.
+
+## Development Status
+
+### Features Currently in Development
+
+<Warning>
+**Important:** Some features are still being developed and may not work as expected.
+</Warning>
+
+<AccordionGroup>
+<Accordion title="Document Analysis (RAG)" icon="file-search">
+**Status:** In Development  
+**Issue:** RAG document analysis not fully functional  
+**Impact:** 
+- Document upload works, but analysis may be incomplete
+- Citations from uploaded documents may not appear correctly
+- File indexing for complex queries needs improvement
+
+**Workaround:** Use simpler, direct questions about uploaded documents
+</Accordion>
+
+<Accordion title="Web Search with Citations" icon="globe">
+**Status:** In Development  
+**Issue:** Web browsing functionality not working  
+**Impact:**
+- Agents cannot access current web information
+- Real-time regulation updates unavailable
+- External source citations missing
+
+**Workaround:** Contact partner organizations for latest regulatory information
+</Accordion>
+
+<Accordion title="Comprehensive Feedback System" icon="message-square">
+**Status:** In Development  
+**Issue:** Full feedback modal not yet implemented  
+**Current:** Only thumbs up/down available on responses  
+**Expected:** Complete feedback form with bug reporting, suggestions, and ratings
+
+**Workaround:** Email support@tooli.be for detailed feedback
+</Accordion>
+
+<Accordion title="Help Portal Knowledge Base" icon="book-open">
+**Status:** In Development  
+**Issue:** Interactive help agent not yet available  
+**Current:** Static documentation only  
+**Expected:** AI-powered help assistant with searchable knowledge base
+
+**Workaround:** Use current documentation and contact support for complex questions
+</Accordion>
+</AccordionGroup>
+
+---
+
+## Known Issues & Fixes
+
+### Authentication & Access
+
+<Tabs>
+<Tab title="Login Issues">
+**Issue:** Rate limiting triggers too quickly  
+**Details:** "Too many attempts" appears after fewer than 5 clicks  
+**Status:** Being optimized  
+**Workaround:** Wait 15 minutes between attempts
+
+**Issue:** Verification links expire quickly  
+**Details:** Email verification links valid for only a few minutes  
+**Status:** Extending validity period  
+**Workaround:** Request new verification immediately if link fails
+</Tab>
+
+<Tab title="Email Problems">
+**Issue:** Verification emails in spam  
+**Details:** System emails often end up in junk folders  
+**Status:** Improving email deliverability  
+**Workaround:** Check spam folder, whitelist @tooli.be domain
+
+**Issue:** Dark mode email visibility  
+**Details:** Some email buttons not visible in dark mode  
+**Status:** Fixing email templates  
+**Workaround:** Switch to light mode for emails
+</Tab>
+
+<Tab title="Account Management">
+**Issue:** Password change not working  
+**Details:** Change password function disabled  
+**Status:** Security review in progress  
+**Workaround:** Contact support for password reset
+
+**Issue:** Account deletion incomplete  
+**Details:** Users can log back in after account deletion  
+**Status:** Fixing data purge process  
+**Workaround:** Contact support for complete account removal
+</Tab>
+</Tabs>
+
+### User Experience
+
+<Tabs>
+<Tab title="Interface Issues">
+**Issue:** Organization error messages unclear  
+**Details:** "Network Error" instead of "Organization name already exists"  
+**Status:** Improving error messaging  
+
+**Issue:** Agent selection not persistent  
+**Details:** New chat resets agent to General Assistant  
+**Status:** ✅ **Fixed** - Selected agent now stays active
+
+**Issue:** Voice input spacing  
+**Details:** Voice button too close to send button  
+**Status:** Adjusting button layout  
+**Workaround:** Tap carefully or use keyboard input
+</Tab>
+
+<Tab title="Mobile Compatibility">
+**Issue:** Older iPad compatibility  
+**Details:** Some older iPad models have display issues  
+**Status:** Investigating browser compatibility  
+**Workaround:** Use updated browser or desktop version
+
+**Issue:** Voice language detection  
+**Details:** No "automatic detection" option for speech-to-text  
+**Status:** Adding auto-detection feature  
+**Workaround:** Manually select your language for better accuracy
+</Tab>
+</Tabs>
+
+---
+
+## Recent Improvements
+
+### ✅ Recently Fixed
+- **Agent persistence:** Selected agent now stays active in new chats
+- **Registration flow:** Improved organization joining process
+- **UI translations:** Better language support (ongoing refinements)
+- **Security:** Enhanced rate limiting and authentication
+- **File uploads:** Improved support for PDF, DOC, PPT, TXT, IMG formats
+
+### 🔄 In Progress
+- **Excel file support:** Adding XLS/XLSX upload capability
+- **Data retention:** Implementing 12-month auto-deletion policy
+- **Advanced security:** Additional authentication options (Microsoft, Azure SSO)
+- **Performance:** Optimizing response times and system stability
+
+---
+
+## Upcoming Features
+
+### Next Release (Coming Soon)
+<CardGroup cols={2}>
+<Card title="Enhanced Document Analysis" icon="file-check">
+Fully functional RAG with accurate citations and document understanding
+</Card>
+
+<Card title="Web Search Integration" icon="search">
+Real-time access to current regulations and industry updates
+</Card>
+
+<Card title="Comprehensive Feedback" icon="feedback">
+Complete feedback system with bug reporting and feature requests
+</Card>
+
+<Card title="Help Assistant" icon="robot">
+AI-powered help agent with interactive troubleshooting
 </Card>
 </CardGroup>
 
-<Info>
-Looking for recent updates? Check the roadmap and quick start while we finalize the release notes.
-</Info>
+### Future Roadmap
+- **Excel file analysis** - Full spreadsheet support
+- **Advanced voice features** - Auto-language detection
+- **Mobile app** - Dedicated iOS/Android applications  
+- **Advanced integrations** - Partner organization systems
+- **Collaborative features** - Team workspaces and sharing
+
+---
+
+## Reporting Issues
+
+### How to Report
+<Steps>
+<Step title="Check This Page">
+Verify the issue isn't already listed in known issues
+</Step>
+
+<Step title="Gather Information">
+Screenshot error messages, note reproduction steps, include browser/device info
+</Step>
+
+<Step title="Contact Support">
+Email support@tooli.be with detailed information
+</Step>
+
+<Step title="Follow Up">
+You'll receive a ticket number to track resolution progress
+</Step>
+</Steps>
+
+### What We Need
+- **Specific steps** to reproduce the issue
+- **Error messages** (exact text or screenshots)  
+- **Browser and device** information
+- **Time and date** when issue occurred
+- **Your organization** and account email
+
+---
+
+## Stay Updated
+
+<Note>
+**Release Notes:** Major updates and fixes are announced via email to all users. Check your inbox regularly for important platform updates.
+</Note>
 
 <CardGroup cols={2}>
-<Card title="Roadmap" icon="map" href="/roadmap">
-See what’s next.
+<Card title="Contact Support" icon="mail" href="mailto:support@tooli.be">
+Report issues or get help
 </Card>
 
-<Card title="Quick start" icon="rocket" href="/welcome/introduction">
-Start using WonkaChat now.
+<Card title="Getting Help" icon="help-circle" href="/support-resources/getting-help">
+General support information
 </Card>
 </CardGroup>
+
+**Last updated:** [Current Date] - Check back regularly for the latest development status.

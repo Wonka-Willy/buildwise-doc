@@ -61,12 +61,9 @@
         "tab": "Learning",
         "groups": [
           {
-            "group": "Foundations of AI",
+            "group": "Learning",
             "pages": [
-              "learn/index",
-              "learn/ai-agent",
-              "learn/mcp",
-              "learn/build-agents"
+              "learn/index"
             ]
           }
         ]
@@ -75,7 +72,7 @@
         "tab": "Use Cases",
         "groups": [
           {
-            "group": "Use cases",
+            "group": "Use Cases",
             "pages": [
               "use/index"
             ]
@@ -84,6 +81,7 @@
       },
       {
         "tab": "Updates",
+        "hidden": true,
         "groups": [
           {
             "group": "Changelog",
@@ -121,7 +119,7 @@
       "anchors": [
         {
           "anchor": "Our website",
-          "href": "https://www.meetwonka.com",
+          "href": "https://tooli.be/",
           "icon": "globe"
         },
         {
