@@ -49,7 +49,7 @@ View your local preview at `http://localhost:3000`
 ├── tools-connection/        # MCP and tool integration
 ├── improved-usage/          # Usage best practices
 ├── security-governance/     # Security and compliance
-├── support-resources/       # Help and troubleshooting
+├── support/                  # Help and troubleshooting
 ├── learn/                   # Educational content
 ├── use/                     # Use cases
 ├── updates/                 # Changelog

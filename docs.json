@@ -20,7 +20,8 @@
             "pages": [
               "welcome/introduction",
               "welcome/why-tooli",
-              "welcome/quick-start"
+              "welcome/quick-start",
+              "support/faq"
             ]
           },
           {
@@ -51,9 +52,8 @@
           {
             "group": "Support",
             "pages": [
-              "support-resources/faq",
-              "support-resources/cant-register",
-              "support-resources/getting-help"
+              "support/cant-register",
+              "support/getting-help"
             ]
           }
         ]
