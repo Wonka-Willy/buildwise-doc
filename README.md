@@ -13,7 +13,7 @@ The documentation is organized into the following sections:
 - **Tools Connection** - MCP setup and tool integration
 - **Improved Usage** - Best practices, prompt engineering, and prompt library
 - **Security & Governance** - Security overview, access control, best practices, and compliance
-- **Support & Resources** - Troubleshooting, FAQs, and getting help
+- **Support** - Troubleshooting, FAQs, and getting help
 - **Learning** - Foundations of AI agents and MCP concepts
 - **Use Cases** - Practical examples and applications
 - **Updates** - Changelog and version history
