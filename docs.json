@@ -53,7 +53,17 @@
             "group": "Support",
             "pages": [
               "support/cant-register",
-              "support/getting-help"
+              "support/getting-help",
+              "support/contact"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/terms-of-service",
+              "legal/privacy-policy",
+              "legal/legal-notice",
+              "legal/cookie-policy"
             ]
           }
         ]
@@ -125,7 +135,7 @@
         },
         {
           "anchor": "Contact-us",
-          "href": "https://www.meetwonka.com/contact",
+          "href": "http://localhost:3000/support/contact",
           "icon": "envelope"
         }
       ]
