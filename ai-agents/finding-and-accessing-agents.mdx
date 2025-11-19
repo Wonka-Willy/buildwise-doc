@@ -1,370 +1,446 @@
 ---
-title: "Explore the Agent Library"
-description: "Meet your six specialized construction assistants. Each agent is trained for specific tasks in your daily work - from creating quotes to checking documents and building reports."
+title: "Tooli's AI Agents"
+description: "Meet your construction specialists and learn how to work with them effectively. From selecting the right agent to iterative collaboration – master your AI team."
 ---
 
-## Your Construction Expert Team
+## Your Agent Panel
 
-<Note>
-**How to use this library:** Choose the agent that matches your current task. Each specialist knows their role and will deliver consistent, professional results every time.
-</Note>
-
-<Frame caption="The agents panel on the right side of your Tooli interface">
-<img src="/images/agents-panel.png" alt="Tooli agents panel showing the six specialized construction assistants" />
+<Frame caption="Find your agents in the right-side panel of Tooli">
+<img src="/images/agents-panel.png" alt="Tooli agents panel showing the four specialized construction assistants" />
 </Frame>
 
+Your four construction specialists are always visible in the **right-side panel**. Click on any agent to start working, or switch agents at any time: Tooli automatically keeps track of your context as long as you stay in the same conversation.
+
 ---
 
+## Meet Your Construction Team
+
 <AccordionGroup>
-<Accordion title="General Assistant" icon="message">
-*Your versatile construction companion*
 
-<Card title="Best for" icon="message">
-**Any construction question or general guidance**
-- Material specifications and building codes
-- Belgian regulations and compliance  
-- Safety requirements and procedures
-- Technical advice and problem-solving
-- Industry guidance and best practices
+<Accordion title="General Agent" icon="message">
+*Your first point of contact and navigation guide in Tooli*
+
+### What This Agent Does
+<CardGroup cols={2}>
+<Card title="Primary Role" icon="compass">
+- **Helps with all general construction questions**
+- **Knows Belgian building codes, regulations and industry standards**
+- **Guides you to the right specialist agent** when needed  
+- **Handles everyday questions too** (not only construction)
 </Card>
 
-### What makes this agent special?
-- **First point of contact** for all construction questions
-- **Guides you to other agents** when you need specialized help
-- **Broad knowledge** across all construction disciplines
-- **Professional partner approach** - communicates like a trusted colleague
+<Card title="Knowledge Areas" icon="brain">
+- Belgian construction regulations & EPB rules  
+- Construction materials, techniques, standards  
+- Site organization, safety, good practices  
+- General technical and non-technical topics
+</Card>
+</CardGroup>
 
-### Example conversations:
+### How to Work With This Agent
+
 <Tabs>
-<Tab title="Material Questions">
-**You:** *"What's the minimum concrete strength for foundations?"*
-
-**General Assistant:** *"For foundations in Belgium, the minimum concrete strength class is typically C20/25 (characteristic compressive strength of 20 N/mm²) according to NBN EN 206..."*
+<Tab title="Starting Questions">
+**Ask anything:**
+- *"What is the difference between glass wool and rock wool?"*
+- *"Explain U-value requirements in Wallonia."*
+- *"What causes basement condensation?"*
+- *"Which agent should I use to analyze my quote?"*
 </Tab>
 
-<Tab title="Safety Requirements">
-**You:** *"PPE requirements for confined space work?"*
+<Tab title="Getting Guidance">
+**When you're not sure where to start:**
+- *"I received a tender—what should I check first?"*
+- *"Help me understand these meeting notes."*
+- *"What steps should I take before pricing this project?"*
 
-**General Assistant:** *"For confined spaces in Belgium, you need: gas detection equipment, ventilation systems, safety harnesses with retrieval lines, emergency communication..."*
-</Tab>
-
-<Tab title="Agent Guidance">
-**You:** *"I need help creating a quote for small renovation work"*
-
-**General Assistant:** *"For creating quotes for small works, I recommend using the **Small Works Quote Builder**. This agent specializes in transforming client requests into complete offers..."*
+The General Agent will guide you to the correct specialist.
 </Tab>
 </Tabs>
+
+### What This Agent Cannot Do
+- Detailed quote analysis (use **Offer Coach**)
+- BoQ/tender checking (use **Tender Checker**)  
+- Professional meeting minute formatting (use **Meeting Minutes Writer**)  
+- Legal advice (consult qualified professionals)
+
+### Pro Tips
+- Use **follow-up questions** to refine answers  
+- Ask for **sources or regulation references**  
+- Switch to specialists when recommended  
 </Accordion>
 
-<Accordion title="Small Works Quote Builder" icon="calculator">
-*Transform client requests into professional quotes*
+<Accordion title="Offer Coach" icon="check-circle">
+*Your quote-quality specialist*
 
-<Card title="Best for" icon="calculator">
-**Creating complete quotes for small construction works**
-- Residential renovations and repairs
-- Small commercial projects  
-- Client-facing quotes with clear scope
-- KMO and independent contractor work
+### What This Agent Does
+<CardGroup cols={2}>
+<Card title="Quote Analysis" icon="magnifying-glass">
+- **Analyzes your own drafted quotes**  
+- **Identifies weaknesses, ambiguities, and inconsistencies**  
+- **Checks completeness & coverage**  
+- **Highlights operational and contractual risks**
 </Card>
 
-### What you get:
-- **Complete quote structure** with scope, assumptions, exclusions
-- **Planning and timeline** in simple language
-- **Risk identification** and mitigation suggestions  
-- **Client questions** to clarify requirements
-- **Professional formatting** ready to copy into email or Word
+<Card title="Quality Areas" icon="shield-check">
+- Financial: margin structure, cost coverage  
+- Technical: clarity, completeness, conformity  
+- Operational: feasibility, planning assumptions  
+- Contractual: validity, price revision, terms
+</Card>
+</CardGroup>
 
-### Example input/output:
+### How to Work With This Agent
+
+<Steps>
+<Step title="Upload Your Quote">
+**Share your drafted offer:**  
+- PDF, Word, Excel  
+- Optional: specifications, annexes, general conditions  
+</Step>
+
+<Step title="Get Structured Analysis">
+You receive:  
+- **Summary** of quote scope  
+- **Core analysis** (financial, technical, operational, contractual)  
+- **Top issues** ranked by importance  
+- **Opportunities** to strengthen your offer  
+</Step>
+
+<Step title="Iterate and Improve">
+Ask follow-ups:  
+- *"Which items are unclear?"*  
+- *"Where should I add assumptions?"*  
+- *"What are the missing documents?"*  
+</Step>
+
+<Step title="Refine Your Quote">
+Make improvements, re-upload, and let Offer Coach re-check.
+</Step>
+</Steps>
+
+### Example Input/Output
+
 <Tabs>
-<Tab title="Input">
-*"Bathroom renovation for client, 2x3m space, includes new tiles, shower, toilet, sink. Budget around €8000, wants modern style."*
+<Tab title="What You Upload">
+*A drafted quote for a renovation project.*
 </Tab>
 
-<Tab title="Output">
-# Offerte - Badkamer Renovatie
+<Tab title="What You Get">
+## Summary  
+The quote covers all main works but lacks clarity on transport, waste, and execution deadlines.
 
-**Scope van de werken:**
-• Volledige badkamer renovatie 2x3m
-• Plaatsing nieuwe sanitair (douche, toilet, wastafel)
-• Tegelwerk vloer en wanden tot plafond
-• Loodgieterswerk en elektrische aansluitingen
+## Core Analysis Points  
+- **Financial:** Cost structure unclear, missing indirect costs section  
+- **Technical:** Several vague item descriptions  
+- **Operational:** Execution period not specified  
+- **Contractual:** No validity period, no price revision clause  
 
-**Aannames:**
-• Bestaande rioleringsaansluitingen zijn functioneel
-• Elektrische groep is voldoende gedimensioneerd
-• Toegang mogelijk via standaard deuropening
+## Top Issues (Ranked)  
+1. Missing validity period  
+2. Undefined execution timeline  
+3. No explicit waste management provisions  
 
-**Uitsluitingen:**
-• Schilderwerk en plafondafwerking
-• Vergunningen indien nodig
-• Herstel aangrenzende ruimtes
-
-**Planning:** 8-10 werkdagen
+## Opportunities  
+1. Add material choice annex  
+2. Clarify what is included/excluded  
+3. Add assumptions for coordination  
 </Tab>
 </Tabs>
-</Accordion>
 
-<Accordion title="BoQ Sanity & Gap Finder" icon="search">
-*Quality control for bills of quantities*
+### What This Agent Cannot Do
+- Create quotes from zero  
+- Calculate prices or give financial advice  
+- Draft legal clauses  
+- Guarantee project success  
 
-<Card title="Best for" icon="search">
-**Checking bills of quantities and estimates for errors**
-- Detecting calculation mistakes and duplicates
-- Finding missing items in tender documents
-- Identifying high-risk posts
-- Validating pricing structures
+### Common Mistakes to Avoid
+- Assuming the agent calculates quantities  
+- Mixing labour & material in one line  
+- Forgetting to attach annexes  
+
+### Pro Tips
+<CardGroup cols={2}>
+<Card title="Iterative Improvement" icon="repeat">
+- Upload multiple quote versions  
+- Ask specific questions  
+- Compare approaches  
 </Card>
 
-### What it finds:
-- **Mathematical errors** - wrong totals, missing amounts, rounding issues
-- **Gaps and duplications** - missing work packages, duplicate line items  
-- **High-risk posts** - unclear descriptions, unusual units
-- **Inconsistencies** - pricing logic problems, specification conflicts
-
-### Example analysis:
-<Tabs>
-<Tab title="Document Upload">
-*Upload your BoQ/pricing sheet (PDF, Excel)*
-</Tab>
-
-<Tab title="Analysis Output">
-# Samenvatting
-• 3 rekenofouten gedetecteerd in totaalbedragen
-• 5 mogelijke doublures tussen lot 2 en lot 4  
-• 12 posten zonder eenheidsprijs
-• Top risico: onvolledige omschrijving "diversen lot 3"
-
-# Rekencontroles
-• Post 2.15: Totaal €12.450 ≠ som (€11.850) - verschil €600
-• Post 4.02: Eenheid "m3" voor schilderwerk (verwacht "m2")
-
-# Opvallende Posten  
-• Post 3.07: "Diverse aanpassingen t.b.v. installaties"
-  → Risico: onduidelijke scope, potentieel meerwerk
-</Tab>
-</Tabs>
+<Card title="Follow-up Questions" icon="question">
+- *"Where are risks insufficiently described?"*  
+- *"What assumptions should I make explicit?"*  
+</Card>
+</CardGroup>
 </Accordion>
 
-<Accordion title="Variation/Extra Work Builder" icon="edit">
-*Formalize project changes and additional work*
+<Accordion title="Tender Checker" icon="search">
+*Your BoQ and tender document inspector*
 
-<Card title="Best for" icon="edit">
-**Creating formal documentation for project modifications**
-- Change requests and variations
-- Extra work situations  
-- Contract modifications
-- Impact analysis (time/cost)
+### What This Agent Does
+<CardGroup cols={2}>
+<Card title="Error Detection" icon="bug">
+- **Finds calculation mistakes**  
+- **Detects duplicates & missing items**  
+- **Checks units and quantities**  
+- **Flags risky or unclear descriptions**
 </Card>
 
-### Professional documentation includes:
-- **Situation summary** in neutral tone
-- **Contract basis** and relevant clauses
-- **Reason for change** (technical, safety, unforeseen conditions)
-- **Scope definition** with clear boundaries
-- **Time and cost impact** analysis
-- **Request for instruction** with response deadline
+<Card title="Quality Control" icon="clipboard-check">
+- Structural completeness  
+- Logical consistency  
+- Provisional quantities  
+- Items requiring client clarification
+</Card>
+</CardGroup>
 
-### Example transformation:
+### How to Work With This Agent
+<Steps>
+<Step title="Upload Tender Documents">
+BoQ, price sheet, specifications (PDF or Excel).
+</Step>
+
+<Step title="Get Systematic Check">
+You receive:  
+- Summary of issues  
+- Calculation anomalies  
+- Missing/duplicate items  
+- Questions to ask the client  
+</Step>
+
+<Step title="Ask Targeted Questions">
+- *"Explain the issue in lot 3?"*  
+- *"Which items appear duplicated?"*  
+- *"What should I clarify before pricing?"*  
+</Step>
+
+<Step title="Prepare Clarifications">
+Use the findings to create precise questions for the client.
+</Step>
+</Steps>
+
+### Example Analysis Output
+
 <Tabs>
-<Tab title="Rough Input">
-*"Client wants to change the kitchen layout after we started demolition. Need to move plumbing and electrical. Will delay us 3 days and cost extra for materials and labor."*
+<Tab title="Input Document">
+BoQ for apartment renovation (230 line items).
 </Tab>
 
-<Tab title="Formal Output">
-# Situatie
-Tijdens uitvoering van de keukenrenovatie heeft opdrachtgever verzocht om wijziging van de keukenindeling conform nieuwe schets d.d. [datum].
+<Tab title="Results">
+## Summary  
+- Several unit inconsistencies  
+- 3 duplicates detected  
+- 14 items without quantification  
+- Many vague descriptions requiring clarification  
 
-# Contractbasis
-Oorspronkelijk ontwerp conform tekening K-01 rev.A
-Algemene voorwaarden artikel 12: "Wijzigingen"
+## Calculation Checks  
+- Item 2.13: Total does not match unit × quantity  
+- Item 4.02: Unit "m³" used for painting (should be "m²")
 
-# Scope van de Wijziging  
-• Herplaatsing leidingwerk (water, afvoer, elektra)
-• Aanpassing wandopeningen
-• Extra materiaalkost voor verlengde leidingen
+## Notable Items  
+- "Various adaptations" → unclear scope  
+- Items 3.02 & 3.03 appear identical but priced separately  
 
-# Tijdimpact
-Geschatte vertraging: 3 werkdagen
-Nieuwe opleverdatum: [datum + 3 dagen]
-
-# Verzoek om Bevestiging
-Gelieve binnen 2 werkdagen te bevestigen of deze wijziging kan worden uitgevoerd.
+## Questions for Client  
+1. Clarify scope for "various adaptations"  
+2. Confirm if 3.02/3.03 are distinct  
+3. Provide details for provisional sum items  
 </Tab>
 </Tabs>
+
+### What This Agent Cannot Do
+- Interpret architectural drawings  
+- Calculate final prices  
+- Provide legal advice  
+- Replace a professional quantity surveyor  
+
+### Working Effectively
+- Ensure documents are readable  
+- Ask specific questions  
+- Verify all flagged points  
+- Combine with Offer Coach for pricing strategy  
 </Accordion>
 
-<Accordion title="Quote Quality Coach" icon="check-circle">
-*Improve your quotes before submission*
+<Accordion title="Meeting Minutes Writer" icon="edit">
+*Your professional report builder for construction meetings*
 
-<Card title="Best for" icon="check-circle">
-**Analyzing and improving your own quotes**
-- Critical review of completed quotes
-- Identifying weak points and risks
-- Finding missed aspects  
-- Optimization opportunities before submission
+### What This Agent Does
+<CardGroup cols={2}>
+<Card title="Note Transformation" icon="magic">
+- **Turns raw notes into structured minutes**  
+- **Organizes discussions by theme**  
+- **Extracts decisions & deadlines**  
+- **Formats action items per person**
 </Card>
 
-### Comprehensive analysis covers:
-- **Financial aspects** - margin coverage, cost completeness
-- **Technical completeness** - specifications, conformity  
-- **Operational feasibility** - planning, resource availability
-- **Contractual risks** - liabilities, exclusions, payment terms
-- **Competitive positioning** - strengths and improvement opportunities
-
-### Example review:
-<Tabs>
-<Tab title="Upload Your Quote">
-*Upload your completed quote document for analysis*
-</Tab>
-
-<Tab title="Quality Analysis">
-# Samenvatting
-Quote voor kantoor renovatie €45.000, goede technische dekking maar enkele contractuele zwaktes geïdentificeerd.
-
-# Analyse Kernpunten
-**Financieel:** Marge lijkt adequaat, maar transport niet doorberekend
-**Technisch:** Volledige conformiteit, brandveiligheid correct
-**Operationeel:** Planning ambitieus voor beschikbare mankracht  
-**Contractueel:** Betalingsschema risicovol, garanties onduidelijk
-
-# Knelpunten (Top 3)
-1. **Transport & hijskosten:** Niet opgenomen, geschat €800-1200
-2. **Betalingsschema:** 60% vooruitbetaling onrealistisch  
-3. **Interface afwerking/technieken:** Verantwoordelijkheden onduidelijk
-
-# Kansen (Top 3)
-1. **Duurzaamheidsbonus:** Vermeld energie-efficiënte materialen
-2. **Waardetoevoeging:** Benadruk ervaring met gelijkaardige projecten
-3. **Flexibiliteit:** Bied alternatieve planningsopties
-</Tab>
-</Tabs>
-</Accordion>
-
-<Accordion title="Report Builder" icon="file-text">
-*Transform notes into professional reports*
-
-<Card title="Best for" icon="file-text">
-**Converting rough notes into structured reports**
-- Meeting minutes and site reports
-- Voice recordings to written summaries
-- Project updates and progress reports
-- Decision documentation with action items
+<Card title="Professional Structure" icon="list">
+- Project header  
+- Executive summary  
+- Discussions  
+- Decisions  
+- Action items  
+- Open risks & questions  
 </Card>
+</CardGroup>
 
-### Structured output includes:
-- **Clear summary** with key decisions and deadlines
-- **Topic-based discussions** with who said what
-- **Action items** with owners and deadlines  
-- **Open questions and risks** with impact analysis
-- **Next steps** and follow-up schedule
+### How to Work With This Agent
 
-### Example transformation:
+<Steps>
+<Step title="Prepare Your Input">
+Share:  
+- Bullets, handwritten/raw notes  
+- Voice transcripts  
+- Emails summarizing a meeting  
+</Step>
+
+<Step title="Get Structured Output">
+You receive:  
+- Professional, neutral report  
+- Clear responsibilities  
+- Structured decisions & actions  
+</Step>
+
+<Step title="Refine and Adjust">
+- *"Make it more formal"*  
+- *"Create a shorter summary"*  
+- *"Reorganize action items by priority"*  
+</Step>
+</Steps>
+
+### Example Transformation
+
 <Tabs>
-<Tab title="Rough Notes/Voice Input">
-• Meeting with client about kitchen delay
-• John said electrical needs 2 extra days
-• Client not happy about timeline  
-• Need to order new tiles tomorrow
-• Safety inspector coming Friday
-• Budget discussion postponed
+<Tab title="Your Raw Notes">
+- Delay in electrical work  
+- New tiles must be ordered  
+- Client unhappy with schedule  
+- Safety inspection on Friday  
 </Tab>
 
-<Tab title="Professional Report">
-# Werfverslag - Keukenproject
-**Datum:** [Today's date]
-**Aanwezig:** John (Elektricien), [Client name], [Your name]
-**Locatie:** Projectwerf
+<Tab title="Professional Minutes">
+# Project Meeting – Apartment Renovation  
+**Date:** [today]  
+**Attendees:** Contractor, Client, Electrician, PM  
 
-# Samenvatting
-• Planning uitgesteld met 2 dagen door elektrische aanpassingen
-• Tegelbestelling urgent voor voortzetting werken
-• Veiligheidsinspectie gepland vrijdag
+## Summary  
+- Electrical work delayed by 2 days  
+- Tile procurement urgent  
+- Safety inspection confirmed  
 
-# Beslissingen
-• Electrical delay geaccepteerd - nieuwe oplevering [date+2]
-• Tegelbestelling wordt morgen geplaatst
+## Decisions  
+- Electrical delay accepted — new deadline Wednesday  
+- Tile order must be placed by tomorrow  
+- Budget discussion postponed  
 
-# Actiepunten  
-• **John:** Elektrische werken afronden - deadline woensdag
-• **[Your name]:** Tegelbestelling plaatsen - deadline morgen 16:00
-• **Client:** Budgetbespreking herplannen - volgende week
+## Action Items  
+**Electrician**  
+- Provide updated schedule — Wednesday  
 
-# Volgende stappen
-• Veiligheidsinspectie vrijdag 10:00
-• Progress meeting volgende week na tegellevering
+**PM**  
+- Order tiles — Tomorrow  
+- Prepare safety inspection — Friday  
+
+## Next Steps  
+- Tile delivery follow-up next week  
+- Budget meeting reschedule  
 </Tab>
 </Tabs>
+
+### What This Agent Cannot Do
+- Attend meetings  
+- Add missing information  
+- Make project decisions  
+- Ensure legal compliance  
+
+### Best Practices
+- Provide names & roles  
+- Include deadlines and decisions in notes  
+- Give project context  
+- Ask for specific formatting  
 </Accordion>
+
 </AccordionGroup>
 
 ---
 
-## Choosing the Right Agent
+## Working with Multiple Agents
+
+### Seamless Agent Switching
 
 <Steps>
-<Step title="Identify Your Task">
-**Ask yourself:** What do I need to accomplish?
-- Creating something new → **Quote Builder** or **Variation Builder**  
-- Checking existing work → **BoQ Checker** or **Quality Coach**
-- Organizing information → **Report Builder**
-- General questions → **General Assistant**
+<Step title="Start with Any Agent">
+Choose the agent that fits your first task.
 </Step>
 
-<Step title="Select and Start">
-**In the right panel:** Click on the appropriate agent
-**Start naturally:** Type your request as you would ask a colleague
+<Step title="Switch When Needed">
+Click another agent—your context automatically transfers.
 </Step>
 
-<Step title="Switch Anytime">
-**Need different expertise?** Click another agent
-**Context preserved:** They'll understand what you're working on
+<Step title="Maintain Context">
+Tooli keeps your uploaded files and discussion history.
+</Step>
+
+<Step title="Combine Expertise">
+Use multiple agents for complete project workflows.
 </Step>
 </Steps>
 
+### Example Workflows
+
+<Tabs>
+<Tab title="Complete Project Review">
+1. **General Agent** – "I received a tender and must prepare my quote"  
+2. **Tender Checker** – Upload BoQ and specs  
+3. **Offer Coach** – Improve your drafted quote  
+4. **Meeting Minutes Writer** – Document client discussions  
+</Tab>
+
+<Tab title="Quote Development">
+1. **General Agent** – Ask construction regulation questions  
+2. **Tender Checker** – Inspect tender documents  
+3. **Offer Coach** – Refine your offer  
+4. **Meeting Minutes Writer** – Record meeting outcomes  
+</Tab>
+</Tabs>
+
 ---
 
-## Pro Tips for Working with Agents
+## Important Reminders
 
 <CardGroup cols={2}>
-<Card title="Be Specific" icon="bullseye">
-**Instead of:** *"Help with quote"*
-**Try:** *"Small bathroom renovation, 2x3m, tiles and plumbing, modern style"*
+<Card title="AI Limitations" icon="exclamation-triangle">
+- Agents may make mistakes  
+- Always verify critical information  
+- Use your professional judgment  
+- Consult specialists for legal or technical matters  
 </Card>
 
-<Card title="Upload Context" icon="upload">
-**Include relevant files** when possible
-- Project plans, specifications, photos
-- Existing quotes or documents to review
-- Meeting notes or voice recordings
-</Card>
-
-<Card title="Use Follow-ups" icon="reply">
-**Ask for clarification:** *"Can you explain the planning section in more detail?"*
-**Request variations:** *"Make this more formal for client presentation"*
-</Card>
-
-<Card title="Combine Agents" icon="users">
-**Example workflow:**
-1. **General Assistant** for initial advice
-2. **Quote Builder** to create the offer  
-3. **Quality Coach** to review before sending
+<Card title="Best Results" icon="bullseye">
+- Provide context and clear questions  
+- Upload relevant files  
+- Ask follow-up questions  
+- Iterate for maximum quality  
 </Card>
 </CardGroup>
 
+<Warning>
+**Professional Responsibility:** While Tooli’s agents are trained for construction work in Belgium, you remain fully responsible for accuracy, compliance, and final project decisions.
+</Warning>
+
 ---
 
-## Ready to Start?
+## Getting Started
 
 <Note>
-**Your six specialists are ready to help.** Choose the agent that matches your current task and start working smarter, not harder.
+**Ready to work with your team?** Select an agent that matches your task and begin building better outcomes with Tooli.
 </Note>
 
 <CardGroup cols={2}>
-<Card title="Start Your First Chat" icon="message-square" href="/chat">
-Pick an agent and begin your first conversation
+<Card title="Start Your First Conversation" icon="message-square" href="/chat">
+Choose an agent and begin working with your AI specialists
 </Card>
 
 <Card title="Learn Advanced Techniques" icon="graduation-cap" href="/usage-guide">
-Master document upload, modes, and advanced features
+Master document uploads, modes, and collaboration features
 </Card>
 </CardGroup>
