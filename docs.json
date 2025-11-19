@@ -20,8 +20,7 @@
             "pages": [
               "welcome/introduction",
               "welcome/why-tooli",
-              "welcome/quick-start",
-              "support/faq"
+              "welcome/quick-start"
             ]
           },
           {
@@ -40,20 +39,9 @@
             ]
           },
           {
-            "group": "Security & Governance",
-            "pages": [
-              "security-governance/index",
-              "security-governance/security-overview",
-              "security-governance/access-control",
-              "security-governance/best-practices",
-              "security-governance/compliance-and-governance"
-            ]
-          },
-          {
             "group": "Support",
             "pages": [
-              "support/cant-register",
-              "support/getting-help"
+              "support/cant-register"
             ]
           },
           {
