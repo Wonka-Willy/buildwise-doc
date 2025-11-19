@@ -135,7 +135,7 @@
         },
         {
           "anchor": "Contact-us",
-          "href": "http://localhost:3000/support/contact",
+          "href": "mailto:support@meetwonka.com",
           "icon": "envelope"
         }
       ]
