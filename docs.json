@@ -35,12 +35,14 @@
             "pages": [
               "improved-usage/index",
               "improved-usage/asking-great-questions",
-              "improved-usage/conversation-management"
+              "improved-usage/conversation-management",
+              "improved-usage/excel-files"
             ]
           },
           {
             "group": "Support",
             "pages": [
+              "support/faq",
               "support/cant-register"
             ]
           },
