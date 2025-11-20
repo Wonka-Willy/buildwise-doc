@@ -141,14 +141,18 @@
    ]
   },
   "footer": {
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/wonka-ai/",
-      "instagram": "https://www.instagram.com/meetwonka/"
-    }
+    "text": "Need immediate help? Envoyer toute question à support@meetwonka.com"
   },
   "logo": {
     "light": "/images/Tooli_Logo_Pos_L.png",
     "dark": "/images/Tooli_Logo_Neg_L.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Contact Us",
+      "href": "mailto:support@meetwonka.com"
+    }
   },
   "errors": {
   "404": {
