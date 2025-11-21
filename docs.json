@@ -31,15 +31,6 @@
             ]
           },
           {
-            "group": "Improved Usage",
-            "pages": [
-              "improved-usage/index",
-              "improved-usage/asking-great-questions",
-              "improved-usage/conversation-management",
-              "improved-usage/excel-files"
-            ]
-          },
-          {
             "group": "Support",
             "pages": [
               "support/faq",
@@ -63,7 +54,10 @@
           {
             "group": "Learning",
             "pages": [
-              "learn/index"
+              "learn/improved-usage-index",
+              "learn/asking-great-questions",
+              "learn/conversation-management",
+              "learn/excel-files"
             ]
           }
         ]
