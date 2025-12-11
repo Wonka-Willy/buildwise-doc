@@ -5,3 +5,12 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Hide Mintlify branding */
+a[href*="mintlify.com"],
+footer a[href*="mintlify"],
+.powered-by-mintlify,
+[class*="powered-by"],
+footer p:has(a[href*="mintlify"]) {
+  display: none !important;
+}

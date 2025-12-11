@@ -117,7 +117,7 @@
           "icon": "globe"
         },
         {
-          "anchor": "Contact-us",
+          "anchor": "Contact Us",
           "href": "mailto:support@meetwonka.com",
           "icon": "envelope"
         }
@@ -156,5 +156,6 @@
     "title": "Your page can't be found",
     "description": "Please, go ask **Tooli** to help you find what you're looking for, I am sure he can help you !"
   }
-}
+},
+  "hideBranding": true
 }
