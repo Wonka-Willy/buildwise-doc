@@ -34,7 +34,7 @@
             "group": "Support",
             "pages": [
               "support/faq",
-              "support/cant-register"
+              "support/membership"
             ]
           },
           {
@@ -43,7 +43,8 @@
               "legal/terms-of-service",
               "legal/privacy-policy",
               "legal/legal-notice",
-              "legal/cookie-policy"
+              "legal/cookie-policy",
+              "legal/data-processing-agreement"
             ]
           }
         ]
@@ -124,24 +125,13 @@
       ]
     }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
   "footer": {
     "text": "Need immediate help? Envoyer toute question à support@meetwonka.com"
   },
   "logo": {
     "light": "/images/Tooli_Logo_Pos_L.png",
-    "dark": "/images/Tooli_Logo_Neg_L.png"
+    "dark": "/images/Tooli_Logo_Neg_L.png",
+    "href": "https://tooli.be/"
   },
   "navbar": {
     "primary": {
