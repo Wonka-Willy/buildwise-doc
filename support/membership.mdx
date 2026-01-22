@@ -1,174 +1,245 @@
 ---
 title: "Membership"
-description: "Troubleshoot access and registration problems with Tooli, including email verification, login issues, and membership requirements."
+description: "Can't create an account or log in to Tooli? Find out how to gain access and troubleshoot common registration issues."
 ---
 
-## Can't Register? Quick Solutions First
+## Why Can't I Access Tooli?
 
-### Most Common Issues
-<CardGroup cols={2}>
+Tooli is **exclusively available to paying members** of one of our four partner organizations:
 
-<Card title="Email Not Recognized" icon="shield">
-**Quick Fix:** Your professional email may not be listed correctly in your organization's membership records.  
-Contact your organization to confirm your email is registered.
-</Card>
-
-<Card title="Too Many Attempts" icon="ban">
-**Quick Fix:**  
-Wait 15 minutes, or try again in a private/incognito browser window.
-</Card>
-
-</CardGroup>
-
----
-
-## Eligibility & Access
-
-### Member Organizations Only
-<Warning>
-**Access Requirement:** Tooli is exclusively available to **active members** of our partner organizations:
-
-- **Embuild**  
-- **Bouwunie**  
-- **Constructiv**  
+- **Embuild**
+- **Bouwunie**
+- **Constructiv**
 - **Buildwise**
 
-Your **professional email address must be registered** in your organization's membership system.  
-If it is missing or outdated, you won't be able to log in.
+### How It Works
+
+<Steps>
+  <Step title="Subscribe to a partner organization">
+    Choose one of the four partner organizations and subscribe to their services
+  </Step>
+  
+  <Step title="Wait for synchronization">
+    Allow up to 24 hours for your email to be added to our system
+  </Step>
+  
+  <Step title="Create your Tooli account">
+    Register using the **same email address** you provided to your partner organization
+  </Step>
+</Steps>
+
+<Warning>
+Your professional email must match **exactly** with the email registered in your partner's membership system.
 </Warning>
 
 ---
 
-## Common Access Issues
+## How to Subscribe
+
+Choose your partner organization and subscribe:
+
+<CardGroup cols={2}>
+  <Card title="Embuild" icon="hammer" href="https://www.embuild.be">
+    Business support, contractor services, policy questions
+  </Card>
+  
+  <Card title="Bouwunie" icon="users" href="https://www.bouwunie.be">
+    Support for independents and small businesses
+  </Card>
+  
+  <Card title="Constructiv" icon="graduation-cap" href="https://www.constructiv.be">
+    Training, certifications, social benefits
+  </Card>
+  
+  <Card title="Buildwise" icon="building" href="https://www.buildwise.be/fr/redevances-et-abonnements/abonnements/">
+    Technical guidance, research, construction expertise
+  </Card>
+</CardGroup>
+
+---
+
+## Common Registration Issues
 
 <AccordionGroup>
+  <Accordion title="Email address not recognized">
+    <Warning>
+    **Message shown:**  
+    "We cannot find a profile for this email address at Embuild, Bouwunie, Constructiv, or Buildwise.  
+    If you are already a member of one of these organizations, please first create an account on their website.  
+    Please note that it may take up to one day for the link to become active.  
+    After that, you can create an account here using the same email address."
+    </Warning>
 
-<Accordion title="Email Not Recognized" icon="message">
-**Message shown:** "Email address not recognized"
+    **How to fix it:**
 
-**How to fix it:**
-1. Confirm you have an active membership with one of the partner organizations  
-2. Ask your organization to check whether your **email is correctly listed**  
-3. If your email has recently changed, request an update to your member profile  
-4. Non-members may request access, but approval requires manual review  
-</Accordion>
+    1. Verify you have an **active subscription** with one of the partner organizations
+    2. Make sure you're using the **exact email address** registered with your partner organization
+    3. If you just subscribed, wait up to 24 hours for synchronization
+    4. Contact your partner organization to confirm your email is correctly registered in their system
 
-<Accordion title="Login Attempts Blocked" icon="lock">
-**Message shown:** "Too many login attempts"
+    <Tip>
+    Use the same email address you provided when subscribing to your partner organization.
+    </Tip>
+  </Accordion>
 
-**How to fix it:**
-1. Wait 15 minutes before retrying  
-2. Clear your browser cache and cookies  
-3. Try another browser or an incognito/private window  
-4. Contact support if the issue continues  
-</Accordion>
+  <Accordion title="Email verification link not received or expired">
+    <Warning>
+    **Message shown:**  
+    "Registration successful! Please check your email to verify your account. Didn't receive it? [Resend verification email]"
+    </Warning>
 
-<Accordion title="Verification Email Issues" icon="clock">
-**Problem:** Verification email not received or link expired
+    **How to fix it:**
 
-**How to fix it:**
-1. Check your spam/junk folder  
-2. Request a new verification email  
-3. Make sure you're using the correct address  
-4. Prefer your **official company email domain** rather than a private email  
-</Accordion>
+    1. Check your **spam/junk folder**
+    2. Click **"Resend verification email"** on the registration confirmation page
+    3. Use your **professional email domain** (not a personal email address)
+    4. Wait 60 seconds before requesting another email
 
+    <Tip>
+    Prefer your official company email domain rather than a private email address.
+    </Tip>
+  </Accordion>
+
+  <Accordion title="Account already exists">
+    <Warning>
+    **Message shown (verified account):**  
+    "An account with this email address already exists. [Log in here] or [Reset your password]"
+    </Warning>
+
+    <Warning>
+    **Message shown (unverified account):**  
+    "An account with this email address already exists but is not yet verified. Please check your email for the verification link. [Resend verification email]"
+    </Warning>
+
+    **How to fix it:**
+
+    1. If your account is verified, try logging in with your existing credentials
+    2. If you forgot your password, click **"Forgot your password?"**
+    3. If your account is not verified, check your email for the verification link or request a new one
+  </Accordion>
+
+  <Accordion title="Account temporarily banned">
+    <Warning>
+    **Message shown:**  
+    "Your account has been temporarily banned due to violations of our service."
+    </Warning>
+
+    **How to fix it:**
+
+    1. Wait **15 minutes** before retrying
+    2. Clear your browser cache and cookies
+    3. Try an **incognito/private browsing window**
+    4. If the issue persists, contact support@meetwonka.com
+
+    <Note>
+    This ban is triggered after multiple failed login attempts. If you're experiencing this issue without making multiple attempts, please contact support.
+    </Note>
+  </Accordion>
+
+  <Accordion title="Buildwise SSO login issues">
+    <Warning>
+    **Important:** If you created your account via **Buildwise SSO**, you must continue using Buildwise SSO to log in.
+    </Warning>
+
+    **How it works:**
+
+    - **Option 1:** Create a Tooli account with email/password first, then link Buildwise SSO later
+    - **Option 2:** Register directly via Buildwise SSO (you must always use SSO to log in)
+
+    <Note>
+    You cannot switch from SSO login to email/password login after registration. Email/password account must be created first, then Buildwise SSO can be linked to it - not the other way around.
+    </Note>
+  </Accordion>
 </AccordionGroup>
 
 ---
 
-## First Steps
+## Already a Member but Can't Access?
 
 <Steps>
-
-<Step title="Check Your Status">
-Confirm that your organization lists you as an active member
-</Step>
-
-<Step title="Try Basic Solutions">
-Clear cache, try a different browser, check your internet connection
-</Step>
-
-<Step title="Review Documentation">
-Browse the help portal for detailed FAQs and solutions
-</Step>
-
-<Step title="Contact Support">
-If nothing works, reach out using the details below
-</Step>
-
+  <Step title="Verify your email">
+    Check that your email is correctly listed in your organization's member profile
+  </Step>
+  
+  <Step title="Update your contact information">
+    Contact your partner organization if your email needs to be updated
+  </Step>
+  
+  <Step title="For Buildwise members specifically">
+    Visit the Buildwise onboarding page to link your email to your member account
+  </Step>
+  
+  <Step title="Wait for synchronization">
+    Allow up to 24 hours for email synchronization after profile updates
+  </Step>
 </Steps>
 
 ---
 
 ## Before Contacting Support
 
+<Info>
 To help us resolve your issue quickly, please include:
+</Info>
 
 - **Your full name and email address**
 - **Your partner organization** (Embuild, Bouwunie, Constructiv, or Buildwise)
-- **Screenshots of the error message**
-- **When the issue started happening**
+- **Screenshot of the error message**
+- **When the issue started**
 
 ---
 
 ## Contact Support
 
-### Technical Support
+### Technical Support (Tooli Platform)
 
-<Card title="Tooli Technical Support" icon="wrench">
-**Email:** support@meetwonka.com  
-**Response Time:** 4–8 hours (business days)  
-**Support Hours:** Monday–Friday, 8:00–17:00 CET  
-
-**Use for:** Login issues, technical problems, feature questions, account management
+<Card icon="envelope">
+  **Email:** support@meetwonka.com  
+  **Response Time:** 4–8 hours (business days)  
+  **Support Hours:** Monday–Friday, 9:00–17:00 CET
+  
+  **Use for:** Login issues, technical problems, account management
 </Card>
 
-### Partner Organization Support
-
-For membership questions, profile updates, or billing:
+### Partner Organization Support (Membership & Subscriptions)
 
 <CardGroup cols={2}>
-
-<Card title="Embuild" icon="hammer">
-info@embuild.be • +32 2 545 56 00  
-Business support, contractor services, policy questions  
-</Card>
-
-<Card title="Bouwunie" icon="users">
-+32 2 429 40 40  
-Support for independents and small businesses  
-</Card>
-
-<Card title="Constructiv" icon="graduation-cap">
-info@constructiv.be • +32 2 337 81 00  
-Training, certifications, social benefits  
-</Card>
-
-<Card title="Buildwise" icon="flask">
-info@buildwise.be • +32 2 716 42 11  
-Technical guidance, research, construction expertise  
-</Card>
-
+  <Card title="Embuild" icon="hammer">
+    info@embuild.be  
+    +32 2 545 56 00
+  </Card>
+  
+  <Card title="Bouwunie" icon="users">
+    +32 2 429 40 40
+  </Card>
+  
+  <Card title="Constructiv" icon="graduation-cap">
+    info@constructiv.be  
+    +32 2 337 81 00
+  </Card>
+  
+  <Card title="Buildwise" icon="building">
+    info@buildwise.be  
+    +32 2 716 42 11
+  </Card>
 </CardGroup>
 
 ---
 
-## Ready to get more out of Tooli?
+## Ready to Get Started?
 
 <CardGroup cols={2}>
-
-<Card title="Why Choose Tooli?" icon="star" href="/welcome/why-tooli">
-See why construction teams trust Tooli over generic AI tools.
-</Card>
-
-<Card title="Quick-start Guide" icon="rocket" href="/welcome/quick-start">
-Get set up in minutes and try your first conversation.
-</Card>
-
+  <Card title="Why Tooli?" icon="lightbulb" href="/welcome/why-tooli">
+    See why construction teams trust Tooli over generic AI tools
+  </Card>
+  
+  <Card title="Quick Start Guide" icon="rocket" href="/welcome/quick-start">
+    Get set up in minutes and try your first conversation
+  </Card>
 </CardGroup>
 
+---
+
 <Note>
-If anything is unclear or you need guidance, feel free to reach out.  
-**For immediate assistance, email support@meetwonka.com**
+**Need immediate assistance?** Email support@meetwonka.com with your details and we'll help you get access as quickly as possible.
 </Note>
